@@ -25,7 +25,7 @@ This installation process might take some time. You will know it's complete when
 ### Pull and Run a Model for Your Ollama Instance
 In simple terms, "pulling a model" means downloading a specific AI model that Ollama will use to perform tasks. 
 
-There are various models available at [ollama.com/library](https://ollama.com/library). We recommend starting with `gemma:2b`, `phi`, or `tinyllama`. Be cautious with models larger than 5 billion parameters, as they might be too demanding for a standard Raspberry Pi.
+There are various models available at [ollama.com/library](https://ollama.com/library){:target="_blank"}. We recommend starting with `gemma:2b`, `phi`, or `tinyllama`. Be cautious with models larger than 5 billion parameters, as they might be too demanding for a standard Raspberry Pi.
 
 --- task ---
 
