@@ -5,11 +5,13 @@ Open a Terminal Window on Your Raspberry Pi
 
 To begin, you need to access the terminal. You can do this by clicking on the terminal icon or by pressing `Ctrl + Alt + T`.
 
-![Open Terminal](imageURL1)
+![Icon of a terminal window with a grey background and a blue title bar at the top, featuring a white command prompt symbol in the center.](images/terminal.png)
+
 --- /task ---
 
 --- task ---
-Install Ollama
+
+Install Ollama.
 
 Use the following shell script to install Ollama and the WebUI interface:
 
@@ -18,7 +20,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 ```
 This installation process might take some time. You will know it's complete when the terminal prompt reappears.
 
-![Install Ollama](imageURL2)
+![The installation process of ollama on a linux terminal window. The user types the command and we watch as a progress bar fills and the prompt returns](images/install_ollama.gif)
 
 --- /task ---
 
@@ -36,7 +38,8 @@ ollama run [model name here]
 ```
 You will see some progress bars fill up and then be asked to prompt the model.
 
-![Pull and Run Model](imageURL3)
+![Pull and Run Model](images/run_gemma2b.gif)
+
 --- /task ---
 
 --- task ---
