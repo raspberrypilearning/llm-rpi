@@ -8,4 +8,5 @@ last_tested: "2022-05-19"
 steps:
   - title: What you will make
   - title: Install the LLM
+  - title: Run a model
   - title: What next?
