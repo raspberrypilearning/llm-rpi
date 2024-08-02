@@ -31,16 +31,24 @@ Wait for WebUI to install. You will know installation is finished when the termi
 
 Access the WebUI interface by navigating to `http://localhost:3000/` in your web browser.
 
-![Partial view of a web browser displaying the URL "localhost:3000" in the address bar. The left sidebar of the web application interface shows options for "New Chat," "Workspace," and "Search." The page also has the text "Select a model" with an option to "Set as default."](images/localhostURL.png)
+![A browser tab titled "Open WebUI" shows the URL "localhost:3000" in the address bar.](images/localhostURL.png)
 
 --- /task ---
 
+--- collapse ---
+---
+title: Sign-Up for Ollama WebUI
+---
+
+When using WebUI for the first time, you will be asked to provide a name, email and password. You can use any made-up email for this, it is only for local use on your Raspberry Pi. 
+
+--- /collapse ---
 
 --- task ---
 
 Choose which model to use from the dropdown menu at the top of the WebUI. You can also search for and add new models this way.
 
 
-![Dropdown menu under the "Select a model" option in a web application. The search bar within the dropdown displays the text "Search a model," and below it, the message "No results found" is shown.](images/model_dropdown.png)
+![A dropdown menu with the title "Select a model" shows a search field with the text "gemma:2b" entered. Below the search field, the text "No results found" is displayed, followed by a selectable option to "Pull 'gemma:2b' from Ollama.com." A cursor is hovering over this option.](images/model_dropdown.png)
 
 --- /task ---
