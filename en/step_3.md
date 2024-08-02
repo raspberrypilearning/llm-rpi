@@ -44,7 +44,7 @@ There are lots of models available in the ollama library, but larger models (mod
 
 The number of parameters of a model can be thought of as the "size" of the model's brain; more parameters generally mean the model can learn and represent more complex patterns and relationships in the data.
 
-Here is a list of models, the number of parameters and their size in Gb on your hard disk: 
+Here is a list of models, the number of parameters and their required size in Gb on your hard disk: 
 
 | Model Name       | Parameters    | Size (Gb) |
 | ---------------- | ------------- | --------- |
