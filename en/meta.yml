@@ -9,4 +9,5 @@ steps:
   - title: What you will make
   - title: Install the LLM
   - title: Run a model
+  - title: Using the WebUI
   - title: What next?
