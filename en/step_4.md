@@ -3,6 +3,30 @@ The WebUI works like any other chatbot interface. You can type in your prompts a
 
 ![User interface of a web application showing a greeting message "Hello, Mister C" and the question "How can I help you today?" There are four suggested prompts below: "Grammar check," "Show me a code snippet," "Give me ideas," and part of another prompt. The left sidebar includes options for "New Chat," "Workspace," and "Search." The top right corner shows a circular user icon with "MC" initials.](images/webUI.png)
 
+### Install Docker and the WebUI.
+
+--- task ---
+
+Install Docker by entering the following command into the terminal:
+
+```bash
+sudo apt install docker.io
+```
+Wait for docker to install. You will know installation is finished when the terminal prompt returns.
+
+--- /task ---
+
+--- task ---
+
+Install WebUI by copying and pasting the following command into the terminal:
+
+```bash
+sudo docker run -d -p 3000:8080 -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
+```
+Wait for WebUI to install. You will know installation is finished when the terminal prompt returns.
+
+--- /task ---
+
 --- task ---
 
 Access the WebUI interface by navigating to `http://localhost:3000/` in your web browser.
