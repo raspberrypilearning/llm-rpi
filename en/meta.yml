@@ -10,4 +10,5 @@ steps:
   - title: Install the LLM
   - title: Run a model
   - title: Using the WebUI
+  - title: Image recognition with WebUI
   - title: What next?

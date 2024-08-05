@@ -68,5 +68,16 @@ Here is a list of models, the number of parameters and their required size in Gb
 | Dolphin-2.2-70B  | 70 billion    | 28        |
 | Magicoder-7B     | 7 billion     | 10.5      |
 
+You can download and run any of these models on your Raspberry Pi by opening the terminal and entering:
+
+```bash
+ollama run [Model Name]
+```
+
+For example, to run `gemma:2b`, type:
+
+```bash
+ollama run gemma:2b
+```
 
 --- /collapse ---

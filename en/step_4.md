@@ -35,20 +35,10 @@ Access the WebUI interface by navigating to `http://localhost:3000/` in your web
 
 --- /task ---
 
---- collapse ---
----
-title: Sign-Up for Ollama WebUI
----
-
-When using WebUI for the first time, you will be asked to provide a name, email and password. You can use any made-up email for this, it is only for local use on your Raspberry Pi. 
-
---- /collapse ---
-
 --- task ---
 
-Choose which model to use from the dropdown menu at the top of the WebUI. You can also search for and add new models this way.
+ Sign-Up for Ollama WebUI. 
 
-
-![A dropdown menu with the title "Select a model" shows a search field with the text "gemma:2b" entered. Below the search field, the text "No results found" is displayed, followed by a selectable option to "Pull 'gemma:2b' from Ollama.com." A cursor is hovering over this option.](images/model_dropdown.png)
+When using WebUI for the first time, you will be asked to provide a name, email and password. You can use any made-up email for this, it is only for local use on your Raspberry Pi. 
 
 --- /task ---
