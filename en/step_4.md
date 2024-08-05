@@ -41,11 +41,3 @@ Access the WebUI interface by navigating to `http://localhost:3000/` in your web
 ![A browser tab titled "Open WebUI" shows the URL "localhost:3000" in the address bar.](images/localhostURL.png)
 
 --- /task ---
-
---- task ---
-
- Sign-Up for Ollama WebUI. 
-
-When using WebUI for the first time, you will be asked to provide a name, email and password. You can use any made-up email for this, it is only for local use on your Raspberry Pi. 
-
---- /task ---
