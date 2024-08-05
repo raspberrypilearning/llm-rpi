@@ -39,6 +39,7 @@ Choose which model to use from the dropdown menu at the top of the WebUI. You ca
 --- task ---
 
 Wait for the model to download and verify. This may take some time.
+
 --- /task ---
 
 --- task ---
@@ -52,7 +53,7 @@ Once the LLaVA model is downloaded, start a new chat session by selecting the mo
 --- task ---
 
 Upload an image using the "Upload Image" button. 
-![](images/upload_image.png)
+![A user interface element with two buttons: "Upload Files" at the top with a document icon, and a "Send a Message" button below it, which is grayed out and includes a plus symbol. A cursor is pointing to the plus symbol on the "Send a Message" button.](images/upload_image.png)
 
 --- /task ---
 
