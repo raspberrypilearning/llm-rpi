@@ -8,7 +8,13 @@ last_tested: "2022-05-19"
 steps:
   - title: What you will make
   - title: Install the LLM
+    completion:
+    - engaged
   - title: Run a model
   - title: Using the WebUI
   - title: Image recognition with WebUI
-  - title: What next?
+    completion:
+    - internal
+  - title: What can you do now?
+    completion:
+    - external
