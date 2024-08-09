@@ -5,6 +5,15 @@
     </iframe>    
 </html>
 
+--- collapse ---
+---
+title: No YouTube? Download the videos!
+---
+
+You can download all the resources for this project, including the above video [by clicking here](https://projects.raspberrypi.org/en/projects/llm-rpi-go){:target="_blank"}. 
+
+
+--- /collapse ---
 
 [Ollama](https://ollama.com){:target="_blank"} is an open-source tool designed to run large language models (LLMs) on your Raspberry pi itself, rather than over the internet.
 
