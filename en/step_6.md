@@ -1,7 +1,3 @@
-## What next?
+## What can you do now?
 
-**You've completed the project 🎉**
-
-If you want to explore prompting your new LLM, you could look at [Prompting an LLM](https://projects.raspberrypi.org/en/projects/ai-LLM-prompt){:target="_blank"}.
-
-If you want to have more fun exploring Machine Learning and AI, then you could try out any of [these projects](http://rpf.io/ai){:target="_blank"}.
+There are lots of other machine learning and AI projects in the [artificial intelligence](https://projects.raspberrypi.org/en/pathways/ai-toolkit) toolkit.
