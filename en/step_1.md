@@ -34,17 +34,17 @@ This setup will enable you to explore and use advanced generative AI capabilitie
 title:  Why do we recommend older learners use this resource?
 ---
 
-If you are under 13 years old, we want to make sure you understand the importance of keeping your personal information safe. The Raspberry Pi Foundation is committed to protecting your data, and we take your privacy very seriously.
+If you're under 13 years old, it's important to understand how to keep your personal information safe. The Raspberry Pi Foundation is very careful about protecting your data and your privacy.
 
-When you work on generative AI projects using a Raspberry Pi, it's important to know that by installing the software, **your personal data will never leave your computer**. All of the AI processing happens right on your Raspberry Pi, so your information stays safe and secure with you.
+When you use generative AI projects on a Raspberry Pi, all of the work happens right on your device. **Your personal data stays on your computer and never leaves it.** This keeps your information safe and secure.
 
-You might notice that many online services require users to be at least 13 years old. This is because they process and store the data you enter into their models, which can include personal information. These services follow strict rules to protect your data, but because the information is sent over the internet, it can sometimes be less secure.
+You might have noticed that many online services ask users to be at least 13 years old. This is because they handle and store data you provide, which can include personal information. Although these services follow strict rules to protect your data, sending information over the internet can sometimes be less secure.
 
-**With the Raspberry Pi, everything stays on your own device**, so you don't have to worry about your data being processed elsewhere. This way, you can explore and learn about AI safely and confidently. If you have any questions or need help, please ask a parent, guardian, or teacher to guide you through the process.
+**With the Raspberry Pi, everything stays on your own device,** so you don’t have to worry about your data being sent elsewhere. This lets you explore and learn about AI safely. If you need help, please ask a parent, guardian, or teacher to guide you.
 
-Secondly, it's also important to be aware that generative AI can sometimes produce **content that is biased, inaccurate, misleading or inappropriate**. Generative AI models can "hallucinate" by **confidently generating information that isn't factual** or reliable. This means that not everything an AI tool produces should be taken at face value, and **it’s essential to critically evaluate the output**. As you work with generative AI, remember to verify the information and consult trusted sources to ensure accuracy. 
+It's also important to know that generative AI can sometimes create **content that isn’t accurate, fair, or appropriate**. These AI models can sometimes "hallucinate" and **produce information that sounds true but isn’t.** So, it’s important to **think carefully about the AI’s output and double-check it**. As you work with generative AI, make sure to check the information and ask trusted sources if you’re unsure.
 
-**Always approach AI-generated content with a healthy level of skepticism and a critical mind.**
+**Always look at AI-generated content with a careful and thoughtful mind.**
 
 Enjoy learning and creating with Generative AI!
 
