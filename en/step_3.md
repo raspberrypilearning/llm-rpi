@@ -5,7 +5,8 @@
   </div>
 </html>
 
-## Pull and Run a Model for Your Ollama Instance
+## Pull and run a model for your Ollama instance
+
 In simple terms, "pulling a model" means downloading a specific AI model that Ollama will use to perform tasks. 
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
@@ -19,7 +20,7 @@ Run the following command, replacing `[model name here]` with the name of the mo
 ```sh
 ollama run [model name here]
 ```
-You will see some progress bars fill up and then be asked to prompt the model.
+You will see some progress bars fill up and then you will be asked to prompt the model.
 
 ![Animation showing a command line interface with the prompt displaying "pi@raspberrypi:~ $" followed by a command being typed.](images/run_gemma2b.gif)
 
@@ -40,11 +41,11 @@ Press `Ctrl + D` to exit the LLM prompting process when you are done.
 title: Recommended models and sizes
 ---
 
-There are lots of models available in the ollama library, but larger models (models with more paramters) will take more space in your hard disk, as well as more time to download and more memory to run. 
+There are lots of models available in the Ollama library, but larger models (models with more paramters) will take more space in your hard disk, as well as more time to download and more memory to run. 
 
-The number of parameters of a model can be thought of as the "size" of the model's training data set; more parameters generally mean the model can learn and represent more complex patterns and relationships in the data.
+The number of parameters of a model can be thought of as the "size" of the model's training data set: more parameters generally mean the model can learn and represent more complex patterns and relationships in the data.
 
-Here is a list of models, the number of parameters and their required size in Gb on your hard disk: 
+Here is a list of models, the number of parameters, and their required size in Gb on your hard disk: 
 
 | Model Name       | Parameters    | Size (Gb) |
 | ---------------- | ------------- | --------- |
