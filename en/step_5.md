@@ -8,7 +8,7 @@
 
 ## Image recognition with WebUI
 
-To use ollama, you must download a model to use. Previously, we have used the text only model `gemma:2b` as an example, but in this step we will use the image analysis model called `LLaVa`.
+To use Ollama, you must download a model to use. Previously, you used the text-only model `gemma:2b`, but in this step you will use the image analysis model called `LLaVa`.
 
 --- task ---
 
@@ -18,9 +18,9 @@ To download the LLaVA model, access the WebUI at `http://localhost:3000`.
 
 --- task ---
 
-Sign-Up for Ollama WebUI. 
+Sign-up for Ollama WebUI 
 
-When using WebUI for the first time, you will be asked to provide a name, email and password. You can use any made-up email for this, it is only for local use on your Raspberry Pi. 
+When using WebUI for the first time, you will be asked to provide a name, email, and password. You can use any made-up email for this, it is only for local use on your Raspberry Pi. 
 
 ![A signup form for "Open WebUI" with fields for name, email, and password. The name field is filled with "Mr.C", the email field with "test@whatever.com", and the password field shows a series of dots indicating a hidden password. Below these fields, there is a "Create Account" button with a cursor pointing at it, and a link for users who already have an account to sign in.](images/webUI_signup.png)
 
@@ -28,10 +28,10 @@ When using WebUI for the first time, you will be asked to provide a name, email 
 
 --- task ---
 
-Choose which model to use from the dropdown menu at the top of the WebUI. You can also search for and add new models this way - type `llava:latest` into the search and choose `Pull llava:latest from Ollama.com`. Your model will begin to download.
+Choose which model to use from the drop-down menu at the top of the WebUI. You can also search for and add new models this way - type `llava:latest` into the search and choose `Pull llava:latest from Ollama.com`. Your model will begin to download.
 
 
-![A dropdown menu with the title "Select a model" shows a search field with the text "llava:latest" entered. Below the search field, the text "No results found" is displayed, followed by a selectable option to "Pull 'llava:latest' from Ollama.com." A cursor is hovering over this option.](images/model_dropdown.png)
+![A drop-down menu with the title "Select a model" shows a search field with the text "llava:latest" entered. Below the search field, the text "No results found" is displayed, followed by a selectable option to "Pull 'llava:latest' from Ollama.com". A cursor is hovering over this option.](images/model_dropdown.png)
 
 --- /task ---
 
@@ -70,8 +70,8 @@ Upload an image using the "Upload Image" button.
 
 --- task ---
 
-After uploading, enter a prompt or question about the image in the chat box. Press Enter.
-![A small image of a fluffy orange cat with a white chest and a pink bow around its neck. The cat is looking directly at the camera with a curious expression. Next to the image, there is a plus symbol and the text "describe this picture."](images/cat_prompt.png)
+After uploading, enter a prompt or question about the image in the chat box. Press <kbd>Enter<kbd>.
+![A small image of a fluffy orange cat with a white chest and a pink bow around its neck. The cat is looking directly at the camera with a curious expression. Next to the image, there is a plus symbol and the text "describe this picture".](images/cat_prompt.png)
 
 --- /task ---
 
