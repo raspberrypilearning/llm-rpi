@@ -5,7 +5,7 @@
   </div>
 </html>
 
-## Pull and run a model for your Ollama instance
+## Pull and run a model for your Ollama
 
 In simple terms, "pulling a model" means downloading a specific AI model that Ollama will use to perform tasks. 
 
@@ -41,13 +41,13 @@ Press `Ctrl + D` to exit the LLM prompting process when you are done.
 title: Recommended models and sizes
 ---
 
-There are lots of models available in the Ollama library, but larger models (models with more paramters) will take more space in your hard disk, as well as more time to download and more memory to run. 
+There are lots of models available in the Ollama library, but larger models (models with more paramters) will take more space on your hard disk, as well as needing more time to download and more memory to run. 
 
 The number of parameters of a model can be thought of as the "size" of the model's training data set: more parameters generally mean the model can learn and represent more complex patterns and relationships in the data.
 
-Here is a list of models, the number of parameters, and their required size in Gb on your hard disk: 
+Here is a list of models, the number of parameters, and their required size in GB on your hard disk: 
 
-| Model Name       | Parameters    | Size (Gb) |
+| Model name       | Parameters    | Size (GB) |
 | ---------------- | ------------- | --------- |
 | oLLama-7B        | 7 billion     | 13        |
 | oLLama-3B        | 3 billion     | 6         |
