@@ -19,7 +19,7 @@ To begin, you need to access the terminal. You can do this by clicking on the te
 
 --- task ---
 
-Install Ollama
+Install Ollama.
 
 Use the following shell script to install Ollama and the WebUI interface:
 
