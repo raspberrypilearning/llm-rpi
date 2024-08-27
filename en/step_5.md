@@ -18,7 +18,7 @@ To download the LLaVA model, access the WebUI at `http://localhost:3000`.
 
 --- task ---
 
-Sign-up for Ollama WebUI 
+Sign-up for Ollama WebUI. 
 
 When using WebUI for the first time, you will be asked to provide a name, email, and password. You can use any made-up email for this, it is only for local use on your Raspberry Pi. 
 
@@ -28,7 +28,7 @@ When using WebUI for the first time, you will be asked to provide a name, email,
 
 --- task ---
 
-Choose which model to use from the drop-down menu at the top of the WebUI. You can also search for and add new models this way - type `llava:latest` into the search and choose `Pull llava:latest from Ollama.com`. Your model will begin to download.
+Choose which model to use from the drop-down menu at the top of the WebUI. You can also search for and add new models this way — type `llava:latest` into the search and choose `Pull llava:latest from Ollama.com`. Your model will begin to download.
 
 
 ![A drop-down menu with the title "Select a model" shows a search field with the text "llava:latest" entered. Below the search field, the text "No results found" is displayed, followed by a selectable option to "Pull 'llava:latest' from Ollama.com". A cursor is hovering over this option.](images/model_dropdown.png)
