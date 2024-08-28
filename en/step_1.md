@@ -31,7 +31,7 @@ This setup will enable you to explore and use advanced generative AI capabilitie
 
 --- collapse ---
 ---
-title:  Why do we recommend older learners use this resource?
+title:  Why do we recommend older learners use this project?
 ---
 
 It's important to understand how you can keep your personal information safe. The Raspberry Pi Foundation is very careful about protecting your data and your privacy, which is why we only recommend this project if you're over 13 years old.
