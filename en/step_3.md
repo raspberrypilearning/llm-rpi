@@ -28,7 +28,7 @@ You will see some progress bars fill up and then you will be asked to prompt the
 
 --- task ---
 
-Interact with the model by asking it questions, requesting it to write a poem or story, or simply having a chat.
+Interact with the model by asking it questions, requesting it to write a poem or story, or as a study aid.
 
 ![Screenshot of a black background with white text displaying a short, funny poem about skibidi. Whatever that is.](images/skibidi.png)
 
@@ -41,9 +41,9 @@ Press `Ctrl + D` to exit the LLM prompting process when you are done.
 title: Recommended models and sizes
 ---
 
-There are lots of models available in the Ollama library, but larger models (models with more paramters) will take more space on your hard disk, as well as needing more time to download and more memory to run. 
+There are lots of models available in the Ollama library, but larger models (models with more parameters) will take more space on your hard disk, as well as needing more time to download and more memory to run. 
 
-The number of parameters of a model can be thought of as the "size" of the model's training data set: more parameters generally mean the model can learn and represent more complex patterns and relationships in the data.
+The number of parameters of a model can be thought of as the "size" of the model's training data set: more parameters generally mean the model can find and represent more complex patterns and relationships in the data.
 
 Here is a list of models, the number of parameters, and their required size in GB on your hard disk: 
 
