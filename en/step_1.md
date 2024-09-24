@@ -4,10 +4,7 @@ This learning resource is not recommended for learners below the age of 13. We e
 
 ## What you will make
 
-<html>
-    <iframe style="max-width: 448px;" width="100%" height="796" src="https://www.youtube.com/embed/5QDKCh8k6qo?rel=0&cc_load_policy=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-    </iframe>    
-</html>
+![The image shows the interface of a language model or AI assistant named "llava." At the top, the interface greets the user, "Hello, MrC," and asks, "How can I help you today?" Below the greeting, there are several suggested prompt options for interacting with the AI. At the bottom of the interface, there is a text box to "Send a Message" and microphone and help icons in the lower right corner. The layout is simple and minimalistic with a clean design.](images/wywm.png)
 
 --- collapse ---
 ---
