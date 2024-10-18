@@ -1,4 +1,4 @@
-<p style='border-left: solid; border-width:10px; border-color: #ff0000; background-color: #ffcccc; padding: 10px;'>
+<p style='border-left: solid; border-width:10px; border-color: #FFA500; background-color: #FFFACD; padding: 10px;'>
 This learning resource is not recommended for learners below the age of 13. We encourage users to engage with this material responsibly and to seek guidance from a trusted adult when necessary.
 </p>
 
