@@ -9,6 +9,7 @@
 </html>
 
 --- task ---
+
 Open a terminal window on your Raspberry Pi
 
 To begin, you need to access the terminal. You can do this by clicking on the terminal icon or by pressing `Ctrl + Alt + T`.
