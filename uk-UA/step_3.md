@@ -53,7 +53,7 @@ Here is a list of models, the number of parameters, and their required size in G
 | oLLama-3B                       | 3 billion                    | 6                            |
 | oLLama-1B                       | 1 billion                    | 2                            |
 | oLLama-500M                     | 500 million                  | 1                            |
-| oLLama-300M                     | 300 million                  | 0.6          |
+| oLLama-300M                     | 300 million                  | 0,6                          |
 | Llama2-7B                       | 7 billion                    | 13                           |
 | Llama2-13B                      | 13 billion                   | 26                           |
 | Phi-3 Mini                      | 3 billion                    | 3.8          |
