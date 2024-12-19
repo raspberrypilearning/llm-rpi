@@ -2,7 +2,7 @@
 This learning resource is not recommended for learners below the age of 13. We encourage users to engage with this material responsibly and to seek guidance from a trusted adult when necessary.
 </p>
 
-## What you will make
+## Εισαγωγή
 
 ![The image shows the interface of a language model or AI assistant named "llava." At the top, the interface greets the user, "Hello, MrC," and asks, "How can I help you today?" Below the greeting, there are several suggested prompt options for interacting with the AI. At the bottom of the interface, there is a text box to "Send a Message" and microphone and help icons in the lower right corner. The layout is simple and minimalistic with a clean design.](images/wywm.png)
 
@@ -20,7 +20,7 @@ By following these steps, you will transform your Raspberry Pi into a powerful A
 
 This setup will enable you to explore and use advanced generative AI capabilities directly from your Raspberry Pi.
 
-### You will need:
+### Θα χρειαστείς:
 
 - A Raspberry Pi 4 or 5 with a micro SD card of **at least** 32GB storage
 - An internet connection for the Raspberry Pi
