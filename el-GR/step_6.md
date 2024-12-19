@@ -1,4 +1,4 @@
-## What can you do now?
+## Αναστοχασμός
 
 Learn how to make awesome prompts that get reliable output from Large Language Models in our [Prompt an LLM](http://rpf.io/llmprompt) project, or [Run an Image Generator on your Raspberry Pi](http://rpf.io/sdpi)!
 
