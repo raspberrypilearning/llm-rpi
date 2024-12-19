@@ -7,7 +7,7 @@ copyedit: false
 last_tested: "2022-05-19"
 steps:
   - 
-    title: What you will make
+    title: Wat ga je maken
   - 
     title: Install the LLM
     completion:
@@ -21,6 +21,6 @@ steps:
     completion:
       - internal
   - 
-    title: What can you do now?
+    title: Wat kun je nu doen?
     completion:
       - external
