@@ -5,13 +5,13 @@
   </div><br><br>
 </html>
 
-## Image recognition with WebUI
+## Beeldherkenning met WebUI
 
-To use Ollama, you must download a model to use. Previously, you used the text-only model `gemma:2b`, but in this step you will use the image analysis model called `LLaVa`.
+Om Ollama te kunnen gebruiken, moet je eerst een model downloaden. Eerder gebruikte je het tekstmodel `gemma:2b`, maar in deze stap gebruik je het beeld analyse-model genaamd `LLaVa`.
 
 \--- task ---
 
-To download the LLaVA model, access the WebUI at `http://localhost:3000`.
+Om het LLaVA-model te downloaden, ga je naar de WebUI via `http://localhost:3000`.
 
 \--- /task ---
 
