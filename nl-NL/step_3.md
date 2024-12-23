@@ -5,17 +5,17 @@
   </div>
 </html>
 
-## Pull and run a model for your Ollama
+## Haal een model op voor je Ollama en voer het uit
 
-In simple terms, "pulling a model" means downloading a specific AI model that Ollama will use to perform tasks.
+Simpel gezegd betekent 'een model ophalen' dat je een specifiek AI-model downloadt dat Ollama gebruikt om taken uit te voeren.
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-There are various models available at [ollama.com/library](https://ollama.com/library){:target="_blank"}. We recommend starting with `gemma:2b`, `phi`, or `tinyllama`. Be cautious with models larger than 5 billion parameters, as they might be too demanding for a standard Raspberry Pi.
+Er zijn verschillende modellen beschikbaar op [ollama.com/library](https://ollama.com/library){:target="_blank"}. We raden aan om te beginnen met `gemma:2b`, `phi`, of `tinyllama`. Wees voorzichtig met modellen met meer dan 5 miljard parameters, omdat ze misschien te veel capaciteit vragen van een standaard Raspberry Pi.
 </p>
 
 \--- task ---
 
-Run the following command, replacing `[model name here]` with the name of the model you want to use:
+Voer de volgende opdracht uit en vervang `[model name here]` door de naam van het model dat je wilt gebruiken:
 
 ```sh
 ollama run [model name here]
