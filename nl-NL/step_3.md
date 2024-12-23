@@ -21,61 +21,61 @@ Voer de volgende opdracht uit en vervang `[model name here]` door de naam van he
 ollama run [model name here]
 ```
 
-You will see some progress bars fill up and then you will be asked to prompt the model.
+Je ziet dat er een aantal voortgangsbalken worden gevuld en vervolgens word je gevraagd om het model te activeren.
 
-![Animation showing a command line interface with the prompt displaying "pi@raspberrypi:\~ $" followed by a command being typed.](images/run_gemma2b.gif)
+![Animatie van een opdrachtregelinterface met de prompt die "pi@raspberrypi:\~ $" weergeeft, gevolgd door een opdracht die wordt getypt.](images/run_gemma2b.gif)
 
 \--- /task ---
 
 \--- task ---
 
-Interact with the model by asking it questions, requesting it to write a poem or story, or as a study aid.
+Communiceer met het model door het vragen te stellen, het te vragen een gedicht of verhaal te schrijven of door het te gebruiken als studiehulpmiddel.
 
-![Screenshot of a black background with white text displaying a short, funny poem about skibidi. Whatever that is.](images/skibidi.png)
+![Schermafbeelding van een zwarte achtergrond met witte tekst met een kort, grappig gedicht over skibidi. Wat dat ook is.](images/skibidi.png)
 
-Press `Ctrl + D` to exit the LLM prompting process when you are done.
+Druk op `Ctrl + D` om het LLM proces af te sluiten wanneer je klaar bent.
 
 \--- /task ---
 
 ## --- collapse ---
 
-## title: Recommended models and sizes
+## title: Aanbevolen modellen en groottes
 
-There are lots of models available in the Ollama library, but larger models (models with more parameters) will take more space on your hard disk, as well as needing more time to download and more memory to run.
+Er zijn veel modellen beschikbaar in de Ollama-bibliotheek, maar grotere modellen (modellen met meer parameters) nemen meer ruimte in beslag op jouw harde schijf, novendien duurt het langer om ze te downloaden en is er meer geheugen nodig om ze uit te voeren.
 
-The number of parameters of a model can be thought of as the "size" of the model's training data set: more parameters generally mean the model can find and represent more complex patterns and relationships in the data.
+Het aantal parameters van een model kan worden beschouwd als de 'grootte' van de trainingsdataset van het model: meer parameters betekenen over het algemeen dat het model complexere patronen en relaties in de data kan vinden en weergeven.
 
-Here is a list of models, the number of parameters, and their required size in GB on your hard disk:
+Hier is een lijst met modellen, het aantal parameters en hun vereiste grootte in GB op je harde schijf:
 
-| Model name                      | Parameters                   | Size (GB) |
-| ------------------------------- | ---------------------------- | ---------------------------- |
-| oLLama-7B                       | 7 billion                    | 13                           |
-| oLLama-3B                       | 3 billion                    | 6                            |
-| oLLama-1B                       | 1 billion                    | 2                            |
-| oLLama-500M                     | 500 million                  | 1                            |
-| oLLama-300M                     | 300 million                  | 0.6          |
-| Llama2-7B                       | 7 billion                    | 13                           |
-| Llama2-13B                      | 13 billion                   | 26                           |
-| Phi-3 Mini                      | 3 billion                    | 3.8          |
-| Phi-3 Medium                    | 14 billion                   | 15                           |
-| Orca Mini                       | 7 billion                    | 13                           |
-| Solar                           | 10.7 billion | 6.1-21       |
-| Gemma-2B                        | 2 billion                    | 3.5          |
-| Gemma-7B                        | 7 billion                    | 11.5         |
-| LLaVA-7B                        | 7 billion                    | 5.5          |
-| LLaVA-13B                       | 13 billion                   | 17                           |
-| StarCoder-7B                    | 7 billion                    | 15                           |
-| CodeLlama-7B                    | 7 billion                    | 13                           |
-| Dolphin-2.2-70B | 70 billion                   | 28                           |
-| Magicoder-7B                    | 7 billion                    | 10.5         |
+| Modelnaam                       | Parameters                   | Grootte (GB) |
+| ------------------------------- | ---------------------------- | ------------------------------- |
+| oLLama-7B                       | 7 miljard                    | 13                              |
+| oLLama-3B                       | 3 miljard                    | 6                               |
+| oLLama-1B                       | 1 miljard                    | 2                               |
+| oLLama-500M                     | 500 miljoen                  | 1                               |
+| oLLama-300M                     | 300 miljoen                  | 0.6             |
+| Llama2-7B                       | 7 miljard                    | 13                              |
+| Llama2-13B                      | 13 miljard                   | 26                              |
+| Phi-3 Mini                      | 3 miljard                    | 3.8             |
+| Phi-3 Medium                    | 14 miljard                   | 15                              |
+| Orca Mini                       | 7 miljard                    | 13                              |
+| Solar                           | 10.7 miljard | 6.1-21          |
+| Gemma-2B                        | 2 miljard                    | 3.5             |
+| Gemma-7B                        | 7 miljard                    | 11.5            |
+| LLaVA-7B                        | 7 miljard                    | 5.5             |
+| LLaVA-13B                       | 13 miljard                   | 17                              |
+| StarCoder-7B                    | 7 miljard                    | 15                              |
+| CodeLlama-7B                    | 7 miljard                    | 13                              |
+| Dolphin-2.2-70B | 70 miljard                   | 28                              |
+| Magicoder-7B                    | 7 miljard                    | 10.5            |
 
-You can download and run any of these models on your Raspberry Pi by opening the terminal and entering:
+Je kunt elk van deze modellen downloaden en uitvoeren op jouw Raspberry Pi door de terminal te openen en het volgende in te voeren:
 
 ```bash
-ollama run [Model Name]
+ollama run [Modelnaam]
 ```
 
-For example, to run `gemma:2b`, type:
+Om bijvoorbeeld `gemma:2b` uit te voeren, typ je:
 
 ```bash
 ollama run gemma:2b
