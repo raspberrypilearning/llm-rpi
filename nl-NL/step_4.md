@@ -21,26 +21,26 @@ Install Docker by entering the following command into the terminal:
 sudo apt install docker.io
 ```
 
-Wait for Docker to install. You will know installation is finished when the terminal prompt returns.
+Wait for Docker to install. Je weet dat de installatie is voltooid wanneer de terminalprompt opnieuw verschijnt.
 
 \--- /task ---
 
 \--- task ---
 
-Install WebUI by copying and pasting the following command into the terminal:
+Installeer WebUI door de volgende opdracht te kopiëren en te plakken in de terminal:
 
 ```bash
 sudo docker run -d -p 3000:8080 -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
 ```
 
-Wait for WebUI to install. You will know installation is finished when the terminal prompt returns.
+Wacht tot WebUI is geïnstalleerd. Je weet dat de installatie is voltooid wanneer de terminalprompt opnieuw verschijnt.
 
 \--- /task ---
 
 \--- task ---
 
-Access the WebUI interface by navigating to `http://localhost:3000/` in your web browser.
+Ga naar de WebUI interface door te navigeren naar 'http://localhost:3000/' in je webbrowser.
 
-![A browser tab titled "Open WebUI" shows the URL "localhost:3000" in the address bar.](images/localhostURL.png)
+![Een browsertabblad met de titel "Open WebUI" toont de URL "localhost:3000" in de adresbalk.](images/localhostURL.png)
 
 \--- /task ---
