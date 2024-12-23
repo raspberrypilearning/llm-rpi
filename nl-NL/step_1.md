@@ -4,7 +4,7 @@ Deze leerbron wordt niet aanbevolen voor leerlingen jonger dan 13 jaar. Wij moed
 
 ## Wat ga je maken
 
-![De afbeelding toont de interface van een taalmodel of AI-assistent met de naam "llava." Bovenaan de interface wordt de gebruiker begroet met "Hallo, Meneer C" en wordt gevraagd: "Hoe kan ik je vandaag helpen?" Onder de begroeting staan verschillende suggesties voor interactie met de AI. Aan de onderkant van de interface is er een tekstvak voor "Bericht verzenden" en microfoon en help pictogrammen in de rechterbenedenhoek. De lay-out is eenvoudig en minimalistisch met een strak ontwerp.](images/wywm.png)
+![De afbeelding toont de interface van een taalmodel of AI-assistent met de naam "llava." Bovenaan de interface wordt de gebruiker begroet met "Hello, MrC," en wordt gevraagd: "How can I help you today?" Onder de begroeting staan verschillende suggesties voor interactie met de AI. Aan de onderkant van de interface is er een tekstvak voor "Send a Message" en microfoon en help pictogrammen in de rechterbenedenhoek. De lay-out is eenvoudig en minimalistisch met een strak ontwerp.](images/wywm.png)
 
 ## --- collapse ---
 
