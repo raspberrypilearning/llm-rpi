@@ -1,4 +1,4 @@
-## Install Ollama on your Raspberry Pi
+## Installer Ollama sur ton Raspberry Pi
 
 <html>
   <div style="position: relative; overflow: hidden; padding-top: 56.25%;">
@@ -9,24 +9,24 @@
 
 \--- task ---
 
-Open a terminal window on your Raspberry Pi
+Ouvre une fenêtre de terminal sur ton Raspberry Pi
 
-To begin, you need to access the terminal. You can do this by clicking on the terminal icon or by pressing `Ctrl + Alt + T`.
+Pour commencer, tu dois accéder au terminal. Tu peux le faire en cliquant sur l'icône du terminal ou en appuyant sur `Ctrl + Alt + T`.
 
-![Icon of a terminal window with a grey background and a blue title bar at the top, featuring a white command prompt symbol in the center.](images/terminal.png)
+![Icône d'une fenêtre de terminal sur un arrière-plan gris, avec une barre de titre bleue en haut et un symbole d'invite de commande blanc au centre.](images/terminal.png)
 
 \--- /task ---
 
 \--- task ---
 
-Install Ollama.
+Installe Ollama.
 
-Use the following shell script to install Ollama and the WebUI interface:
+Utilise le script shell suivant pour installer Ollama et l'interface WebUI :
 
 ```sh
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-This installation process might take some time. You will know it's complete when the terminal prompt reappears.
+Ce processus d'installation peut prendre un certain temps. Tu sauras que c'est terminé lorsque l'invite du terminal réapparaît.
 
 \--- /task ---
