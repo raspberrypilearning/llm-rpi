@@ -10,7 +10,7 @@ kan zelfbedachte details gebruiken voor je login.
 3
 00:00:38,160 --> 00:00:41,160
 Selecteer het pull-downmenu en typ
-de naam van het model dat je wil
+de naam van het model dat je wilt
 
 4
 00:00:41,160 --> 00:00:49,680
