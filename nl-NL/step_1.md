@@ -16,7 +16,7 @@ Je kunt alle hulpmiddelen voor dit project downloaden, inclusief de bovenstaande
 
 [Ollama](https://ollama.com){:target="_blank"} is een open-source tool ontworpen om grote taalmodellen (LLMs) op je Raspberry Pi zelf uit te voeren, in plaats van via internet.
 
-Door deze stappen te volgen, verandert je je Raspberry Pi in een krachtige AI-assistent met behulp van Ollama. Je installeert Ollama samen met de bijbehorende WebUI-interface, haalt een geschikt AI-model op en communiceert ermee om verschillende taken uit te voeren, zoals het beantwoorden van vragen, het helpen bij het schrijven van een verhaal of het bieden van ondersteuning.
+Door deze stappen te volgen, verander je je Raspberry Pi in een krachtige AI-assistent met behulp van Ollama. Je installeert Ollama samen met de bijbehorende WebUI-interface, haalt een geschikt AI-model op en communiceert ermee om verschillende taken uit te voeren, zoals het beantwoorden van vragen, het helpen bij het schrijven van een verhaal of het bieden van ondersteuning.
 
 Deze instelling stelt je in staat om geavanceerde generatieve AI mogelijkheden rechtstreeks vanuit je Raspberry Pi te verkennen en te gebruiken.
 
@@ -35,7 +35,7 @@ Je heeft misschien gemerkt dat veel onlinediensten vereisen dat gebruikers minim
 
 Wanneer je generatieve AI-tools gebruikt op een Raspberry Pi, gebeurt al het werk op je apparaat. **Jouw persoonlijke gegevens blijven op je computer staan en verlaten deze nooit.** Zo blijven je gegevens veilig en beschermd en kun je op een veilige manier AI ontdekken en erover leren.
 
-Maar het is ook belangrijk om te weten dat generatieve AI soms **inhoud kan maken die niet nauwkeurig, juist of gepast is**. Deze AI-modellen kunnen soms 'hallucineren' en **informatie produceren die waar lijkt, maar dat niet is**. Het is dus belangrijk om **goed na te denken over de output van de AI-applicatie en deze zelf nog eens goed te controleren**. Omdat je werkt met generatieve AI, zorg ervoor dat je de informatie checkt en betrouwbare bronnen vraagt als je niet zeker bent.
+Maar het is ook belangrijk om te weten dat generatieve AI soms **inhoud kan maken die niet nauwkeurig, juist of gepast is**. Deze AI-modellen kunnen soms 'hallucineren' en **informatie produceren die waar lijkt, maar dat niet is**. Het is dus belangrijk om **goed na te denken over de output van de AI-applicatie en deze zelf nog eens goed te controleren**. Als je werkt met generatieve AI, zorg ervoor dat je de informatie checkt en betrouwbare bronnen vraagt als je niet zeker bent.
 
 **Kijk altijd zorgvuldig en weloverwogen naar door AI gegenereerde content.** Als je hulp nodig hebt, vraag dan een ouder, verzorger of leraar om je te begeleiden.
 
