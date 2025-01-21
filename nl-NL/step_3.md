@@ -41,7 +41,7 @@ Druk op `Ctrl + D` om het LLM proces af te sluiten wanneer je klaar bent.
 
 ## title: Aanbevolen modellen en groottes
 
-Er zijn veel modellen beschikbaar in de Ollama-bibliotheek, maar grotere modellen (modellen met meer parameters) nemen meer ruimte in beslag op jouw harde schijf, novendien duurt het langer om ze te downloaden en is er meer geheugen nodig om ze uit te voeren.
+Er zijn veel modellen beschikbaar in de Ollama-bibliotheek, maar grotere modellen (modellen met meer parameters) nemen meer ruimte in beslag op jouw harde schijf, bovendien duurt het langer om ze te downloaden en is er meer geheugen nodig om ze uit te voeren.
 
 Het aantal parameters van een model kan worden beschouwd als de 'grootte' van de trainingsdataset van het model: meer parameters betekenen over het algemeen dat het model complexere patronen en relaties in de data kan vinden en weergeven.
 
