@@ -1,0 +1,26 @@
+1
+00:00:03,120 --> 00:00:05,600
+Navigeer in jouw browser naar localhost:3000
+
+2
+00:00:12,440 --> 00:00:29,960
+Maak een gratis account aan op WebUI - je
+kan zelfbedachte details gebruiken voor je login.
+
+3
+00:00:38,160 --> 00:00:41,160
+Selecteer het pull-downmenu en typ
+de naam van het model dat je wil
+
+4
+00:00:41,160 --> 00:00:49,680
+gebruiken - in dit voorbeeld gebruiken we LLaVa.
+
+5
+00:00:49,680 --> 00:00:59,920
+Wacht tot het model is gedownload en geverifieerd.
+
+6
+00:01:00,520 --> 00:01:04,920
+En je bent klaar om te chatten!
+
