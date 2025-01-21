@@ -11,7 +11,7 @@
 
 Open een terminalvenster op je Raspberry Pi
 
-Om te beginnen moet je de terminal openen. Je kunt dit doen door op het terminalpictogram te klikken of door op de Ctrl + Alt + T' toetsen te drukken.
+Om te beginnen moet je de terminal openen. Je kunt dit doen door op het terminalpictogram te klikken of door op de 'Ctrl + Alt + T' toetsen te drukken.
 
 ![Icoon van een terminalvenster met een grijze achtergrond en een blauwe titelbalk bovenaan, met een wit opdrachtpromptsymbool in het midden.](images/terminal.png)
 
