@@ -5,7 +5,7 @@ Installeer Ollama op je Raspberry Pi.
 2
 00:00:06,680 --> 00:00:14,960
 Typ deze opdracht in de
-terminal op je Raspberry pi.
+terminal op je Raspberry Pi.
 
 3
 00:00:14,960 --> 00:00:23,880
