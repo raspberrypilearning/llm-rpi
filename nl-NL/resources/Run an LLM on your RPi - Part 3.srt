@@ -9,6 +9,6 @@ de instructies om WebUI te installeren.
 
 3
 00:00:38,040 --> 00:00:41,160
-Open uw webbrowser en ga
+Open je webbrowser en ga
 naar localhost:3000.
 
