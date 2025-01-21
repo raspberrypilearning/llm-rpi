@@ -1,0 +1,21 @@
+1
+00:00:04,080 --> 00:00:12,160
+Kies LLaVa uit het vervolgkeuzemenu in WebUI.
+
+2
+00:00:12,160 --> 00:00:20,960
+Upload een afbeelding door de knop 'Upload file' aan de linkerkant te gebruiken.
+
+3
+00:00:20,960 --> 00:00:29,960
+Stel vragen of start een chat
+over jouw afbeelding met het model.
+
+4
+00:00:30,920 --> 00:00:45,240
+Wacht tot het model verwerkt wordt.
+
+5
+00:00:45,240 --> 00:00:47,840
+En je bent klaar om te chatten!
+
