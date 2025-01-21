@@ -1,21 +1,21 @@
 1
 00:00:04,080 --> 00:00:12,160
-Choose LLaVa from the drop-down menu in WebUI.
+Choisis LLaVa dans le menu déroulant dans WebUI.
 
 2
 00:00:12,160 --> 00:00:20,960
-Upload an image by using the 'Upload File' button on the left.
+Charge une image en utilisant le bouton « Upload File » sur la gauche.
 
 3
 00:00:20,960 --> 00:00:29,960
-Ask questions or start a chat 
-about your image with the model.
+Pose des questions ou commence une discussion 
+à propos de ton image avec le modèle.
 
 4
 00:00:30,920 --> 00:00:45,240
-Wait for the model to process.
+Attends que le modèle soit traité.
 
 5
 00:00:45,240 --> 00:00:47,840
-And you're ready to chat!
+Et tu es prêt à discuter !
 
