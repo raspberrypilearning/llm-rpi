@@ -5,77 +5,77 @@
   </div>
 </html>
 
-## Pull and run a model for your Ollama
+## Récupérer et exécuter un modèle pour ton Ollama
 
-In simple terms, "pulling a model" means downloading a specific AI model that Ollama will use to perform tasks.
+En termes simples, "récupérer un modèle" signifie télécharger un modèle IA spécifique qu'Ollama utilisera pour effectuer des tâches.
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-There are various models available at [ollama.com/library](https://ollama.com/library){:target="_blank"}. We recommend starting with `gemma:2b`, `phi`, or `tinyllama`. Be cautious with models larger than 5 billion parameters, as they might be too demanding for a standard Raspberry Pi.
+Il existe plusieurs modèles disponibles sur [ollama.com/library](https://ollama.com/library){:target="_blank"}. Nous te recommandons de commencer par `gemma:2b`, `phi`, ou `tinyllama`. Sois prudent avec les modèles comportant plus de 5 milliards de paramètres, car ils peuvent exiger une capacité trop importante de la part d'un Raspberry Pi standard.
 </p>
 
 \--- task ---
 
-Run the following command, replacing `[model name here]` with the name of the model you want to use:
+Exécute la commande suivante, en remplaçant `[model name here]` par le nom du modèle que tu souhaites utiliser :
 
 ```sh
 ollama run [model name here]
 ```
 
-You will see some progress bars fill up and then you will be asked to prompt the model.
+Tu verras un certain nombre de barres de progression se remplir, puis tu seras invité à activer le modèle.
 
-![Animation showing a command line interface with the prompt displaying "pi@raspberrypi:\~ $" followed by a command being typed.](images/run_gemma2b.gif)
+![Animation montrant une interface de ligne de commande avec le prompt affichant "pi@raspberrypi:\~ $" suivi de la saisie d'une commande.](images/run_gemma2b.gif)
 
 \--- /task ---
 
 \--- task ---
 
-Interact with the model by asking it questions, requesting it to write a poem or story, or as a study aid.
+Communique avec le modèle en lui posant des questions, en lui demandant d'écrire un poème ou une histoire ou en l'utilisant comme support d'étude.
 
-![Screenshot of a black background with white text displaying a short, funny poem about skibidi. Whatever that is.](images/skibidi.png)
+![Capture d'écran d'un arrière-plan noir avec un texte blanc affichant un court poème drôle sur skibidi. Peu importe ce que c'est.](images/skibidi.png)
 
-Press `Ctrl + D` to exit the LLM prompting process when you are done.
+Appuie sur `Ctrl + D` pour quitter le processus LLM lorsque tu as terminé.
 
 \--- /task ---
 
 ## --- collapse ---
 
-## title: Recommended models and sizes
+## title: Modèles et tailles recommandés
 
-There are lots of models available in the Ollama library, but larger models (models with more parameters) will take more space on your hard disk, as well as needing more time to download and more memory to run.
+Il existe de nombreux modèles disponibles dans la bibliothèque Ollama, mais les modèles plus grands (modèles avec plus de paramètres) prendront plus de place sur ton disque dur, nécessiteront plus de temps de téléchargement et plus de mémoire pour s'exécuter.
 
-The number of parameters of a model can be thought of as the "size" of the model's training data set: more parameters generally mean the model can find and represent more complex patterns and relationships in the data.
+Le nombre de paramètres d'un modèle peut être considéré comme la « taille » de l'ensemble de données d'apprentissage du modèle : un plus grand nombre de paramètres signifie généralement que le modèle peut trouver et représenter des modèles et des relations plus complexes dans les données.
 
-Here is a list of models, the number of parameters, and their required size in GB on your hard disk:
+Voici une liste de modèles, le nombre de paramètres, et la taille requise en Go sur ton disque dur :
 
-| Model name                      | Parameters                   | Size (GB) |
-| ------------------------------- | ---------------------------- | ---------------------------- |
-| oLLama-7B                       | 7 billion                    | 13                           |
-| oLLama-3B                       | 3 billion                    | 6                            |
-| oLLama-1B                       | 1 billion                    | 2                            |
-| oLLama-500M                     | 500 million                  | 1                            |
-| oLLama-300M                     | 300 million                  | 0.6          |
-| Llama2-7B                       | 7 billion                    | 13                           |
-| Llama2-13B                      | 13 billion                   | 26                           |
-| Phi-3 Mini                      | 3 billion                    | 3.8          |
-| Phi-3 Medium                    | 14 billion                   | 15                           |
-| Orca Mini                       | 7 billion                    | 13                           |
-| Solar                           | 10.7 billion | 6.1-21       |
-| Gemma-2B                        | 2 billion                    | 3.5          |
-| Gemma-7B                        | 7 billion                    | 11.5         |
-| LLaVA-7B                        | 7 billion                    | 5.5          |
-| LLaVA-13B                       | 13 billion                   | 17                           |
-| StarCoder-7B                    | 7 billion                    | 15                           |
-| CodeLlama-7B                    | 7 billion                    | 13                           |
-| Dolphin-2.2-70B | 70 billion                   | 28                           |
-| Magicoder-7B                    | 7 billion                    | 10.5         |
+| Nom du modèle                   | Paramètres     | Taille (Go) |
+| ------------------------------- | -------------- | ------------------------------ |
+| oLLama-7B                       | 7 milliards    | 13                             |
+| oLLama-3B                       | 3 milliards    | 6                              |
+| oLLama-1B                       | 1 milliard     | 2                              |
+| oLLama-500M                     | 500 millions   | 1                              |
+| oLLama-300M                     | 300 millions   | 0,6                            |
+| Llama2-7B                       | 7 milliards    | 13                             |
+| Llama2-13B                      | 13 milliards   | 26                             |
+| Phi-3 Mini                      | 3 milliards    | 3,8                            |
+| Phi-3 Medium                    | 14 milliards   | 15                             |
+| Orca Mini                       | 7 milliards    | 13                             |
+| Solar                           | 10,7 milliards | 6,1-21                         |
+| Gemma-2B                        | 2 milliards    | 3,5                            |
+| Gemma-7B                        | 7 milliards    | 11,5                           |
+| LLaVA-7B                        | 7 milliards    | 5,5                            |
+| LLaVA-13B                       | 13 milliards   | 17                             |
+| StarCoder-7B                    | 7 milliards    | 15                             |
+| CodeLlama-7B                    | 7 milliards    | 13                             |
+| Dolphin-2.2-70B | 70 milliards   | 28                             |
+| Magicoder-7B                    | 7 milliards    | 10,5                           |
 
-You can download and run any of these models on your Raspberry Pi by opening the terminal and entering:
+Tu peux télécharger et exécuter n'importe lequel de ces modèles sur ton Raspberry Pi en ouvrant le terminal et en entrant :
 
 ```bash
 ollama run [Model Name]
 ```
 
-For example, to run `gemma:2b`, type:
+Par exemple, pour exécuter `gemma:2b`, tape :
 
 ```bash
 ollama run gemma:2b
