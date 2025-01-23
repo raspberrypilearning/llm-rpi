@@ -15,6 +15,6 @@ steps:
   - title: Image recognition with WebUI
     completion:
     - internal
-    - external
   - title: What can you do now?
-    completion:
+    completion: 
+    - external
