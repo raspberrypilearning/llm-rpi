@@ -4,7 +4,7 @@ This learning resource is not recommended for learners below the age of 13. We e
 
 ## What you will make
 
-![The image shows the interface of a language model or AI assistant named "llava." At the top, the interface greets the user, "Hello, MrC," and asks, "How can I help you today?" Below the greeting, there are several suggested prompt options for interacting with the AI. At the bottom of the interface, there is a text box to "Send a Message" and microphone and help icons in the lower right corner. The layout is simple and minimalistic with a clean design.](images/wywm.png)
+![A screenshot of an AI interface displaying a clean, minimalist design. The interface greets the user with "Hello, MrC" and includes a search bar labeled "How can I help you today?" with microphone and audio icons on the right. Below, suggested prompts include "Tell me a fun fact about the Roman Empire," "Show me a code snippet of a website's sticky header," and "Give me ideas for what to do with my kids' art." The background is white with minimal elements.](images/wywm.png)
 
 --- collapse ---
 ---
