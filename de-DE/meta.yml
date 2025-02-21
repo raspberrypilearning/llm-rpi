@@ -20,7 +20,7 @@ steps:
     title: Image recognition with WebUI
     completion:
       - internal
-      - external
   - 
     title: Was kannst du jetzt tun?
     completion:
+      - external
