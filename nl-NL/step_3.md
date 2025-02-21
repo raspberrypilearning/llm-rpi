@@ -29,9 +29,21 @@ Je ziet dat er een aantal voortgangsbalken worden gevuld en vervolgens word je g
 
 \--- task ---
 
-Communiceer met het model door het vragen te stellen, het te vragen een gedicht of verhaal te schrijven of door het te gebruiken als studiehulpmiddel.
+Interact with the model by asking it questions, requesting it to write a poem or story, or act as a study aid:
 
-![Schermafbeelding van een zwarte achtergrond met witte tekst met een kort, grappig gedicht over skibidi. Wat dat ook is.](images/skibidi.png)
+```
+>>> write a short funny poem about skibidi
+
+Oh Skibidi, you're a sight to behold,
+A sail that's made of clouds, so light and
+bold.
+Your laughter echoes through the air,
+As you dance across the starry fair.
+With a grin so wide, you fill the sky,
+A twinkle that makes everyone sigh.
+Skibidi, a joy we cannot deny,
+A skibidi, a playful sigh.
+```
 
 Druk op `Ctrl + D` om het LLM proces af te sluiten wanneer je klaar bent.
 
