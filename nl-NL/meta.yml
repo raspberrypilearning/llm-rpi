@@ -20,7 +20,7 @@ steps:
     title: Beeldherkenning met WebUI
     completion:
       - internal
-      - external
   - 
     title: Wat kun je nu doen?
     completion:
+      - external
