@@ -4,7 +4,7 @@ Cette ressource d’apprentissage n’est pas recommandée aux apprenants de moi
 
 ## Ce que tu vas faire
 
-![L'image montre l'interface d'un modèle de langage ou d'un assistant d'intelligence artificielle appelé "llava". En haut, l'interface salue l'utilisateur, "Bonjour, Madame C", et demande : "Comment puis-je vous aider aujourd'hui ?" Sous le message de salutation, plusieurs options de prompt sont suggérées pour communiquer avec l’IA. En bas de l'interface, il y a une zone de texte pour "Send a Message" (Envoyer un message) et des icônes d'aide dans le coin inférieur droit. La mise en page est simple et minimaliste avec un design propre.](images/wywm.png)
+![A screenshot of an AI interface displaying a clean, minimalist design. The interface greets the user with "Hello, MrC" and includes a search bar labeled "How can I help you today?" with microphone and audio icons on the right. Below, suggested prompts include "Tell me a fun fact about the Roman Empire," "Show me a code snippet of a website's sticky header," and "Give me ideas for what to do with my kids' art." The background is white with minimal elements.](images/wywm.png)
 
 ## --- collapse ---
 
