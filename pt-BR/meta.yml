@@ -20,7 +20,7 @@ steps:
     title: Image recognition with WebUI
     completion:
       - internal
-      - external
   - 
     title: Perguntas rápidas
     completion:
+      - external
