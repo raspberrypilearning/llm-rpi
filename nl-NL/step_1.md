@@ -4,7 +4,7 @@ Deze leerbron wordt niet aanbevolen voor leerlingen jonger dan 13 jaar. Wij moed
 
 ## Wat ga je maken
 
-![De afbeelding toont de interface van een taalmodel of AI-assistent met de naam "llava." Bovenaan de interface wordt de gebruiker begroet met "Hello, MrC," en wordt gevraagd: "How can I help you today?" Onder de begroeting staan verschillende suggesties voor interactie met de AI. Aan de onderkant van de interface is er een tekstvak voor "Send a Message" en microfoon en help pictogrammen in de rechterbenedenhoek. De lay-out is eenvoudig en minimalistisch met een strak ontwerp.](images/wywm.png)
+![A screenshot of an AI interface displaying a clean, minimalist design. The interface greets the user with "Hello, MrC" and includes a search bar labeled "How can I help you today?" with microphone and audio icons on the right. Below, suggested prompts include "Tell me a fun fact about the Roman Empire," "Show me a code snippet of a website's sticky header," and "Give me ideas for what to do with my kids' art." The background is white with minimal elements.](images/wywm.png)
 
 ## --- collapse ---
 
