@@ -9,7 +9,7 @@
 
 Le WebUI fonctionne comme n'importe quelle autre interface chatbot. Tu peux saisir tes prompts et voir les réponses générées par le modèle.
 
-![Interface utilisateur d'une application web montrant un message d'accueil "Bonjour, Monsieur C" et la question "Comment puis-je vous aider aujourd'hui ?". Il y a quatre suggestions ci-dessous : "Grammar check" (vérification grammaticale), "Show me a code snippet" (Montre-moi un extrait de code), "Give me ideas" (Donne-moi des idées), et une partie d'un autre prompt. La barre latérale gauche inclut des options pour "New Chat" (Nouveau Chat), "Workspace" (Espace de travail) et "Search" (Rechercher). Le coin en haut à droite montre une icône utilisateur circulaire avec des initiales "MC".](images/webUI.png)
+![A screenshot of an AI interface displaying a clean, minimalist design. The text "Hello, MrC" is prominently shown in the center. Below, there is a search bar labeled "How can I help you today?" with a microphone and audio icon to the right. Suggested prompts include "Tell me a fun fact about the Roman Empire," "Show me a code snippet of a website's sticky header," and "Give me ideas for what to do with my kids' art." On the left side, there is a menu with options for "Workspace," "Search," and "Chats." A circular profile icon labeled "M" is in the top right corner.](images/webUI.png)
 
 ### Installer Docker et WebUI
 
