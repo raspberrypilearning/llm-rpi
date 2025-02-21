@@ -1,6 +1,6 @@
-title: Run a large language model on your Raspberry Pi
+title: Запусти велику мовну модель на своєму Raspberry Pi
 hero_image: images/banner.png
-description: Install the open-source Ollama large language model (LLM) on your Raspberry Pi computer
+description: Встанови велику мовну модель (ВММ) з відкритим кодом Ollama на свій комп’ютер Raspberry Pi
 version: 4
 listed: true
 copyedit: false
@@ -9,18 +9,18 @@ steps:
   - 
     title: Що ти зробиш
   - 
-    title: Install the LLM
+    title: Встанови ВММ
     completion:
       - engaged
   - 
-    title: Run a model
+    title: Запусти модель
   - 
-    title: Use the WebUI
+    title: Використовуй WebUI
   - 
-    title: Image recognition with WebUI
+    title: Розпізнавання зображень з WebUI
     completion:
       - internal
-      - external
   - 
     title: Що ти тепер вмієш?
     completion:
+      - external
