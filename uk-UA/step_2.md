@@ -11,7 +11,7 @@
 
 Open a terminal window on your Raspberry Pi
 
-To begin, you need to access the terminal. You can do this by clicking on the terminal icon or by pressing `Ctrl + Alt + T`.
+Для початку тобі потрібно відкрити термінал. You can do this by clicking on the terminal icon or by pressing `Ctrl + Alt + T`.
 
 ![Icon of a terminal window with a grey background and a blue title bar at the top, featuring a white command prompt symbol in the center.](images/terminal.png)
 
