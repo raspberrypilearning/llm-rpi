@@ -1,10 +1,10 @@
 <p style='border-left: solid; border-width:10px; border-color: #FFA500; background-color: #FFFACD; padding: 10px;'>
-This learning resource is not recommended for learners below the age of 13. We encourage users to engage with this material responsibly and to seek guidance from a trusted adult when necessary.
+Цей навчальний ресурс не рекомендується для учнів та учениць віком до 13 років. Ми заохочуємо користувачів відповідально ставитися до цього матеріалу та за потреби звертатися за порадою до дорослих, яким вони довіряють.
 </p>
 
 ## Що ти зробиш
 
-![The image shows the interface of a language model or AI assistant named "llava." At the top, the interface greets the user, "Hello, MrC," and asks, "How can I help you today?" Below the greeting, there are several suggested prompt options for interacting with the AI. At the bottom of the interface, there is a text box to "Send a Message" and microphone and help icons in the lower right corner. The layout is simple and minimalistic with a clean design.](images/wywm.png)
+![A screenshot of an AI interface displaying a clean, minimalist design. The interface greets the user with "Hello, MrC" and includes a search bar labeled "How can I help you today?" with microphone and audio icons on the right. Below, suggested prompts include "Tell me a fun fact about the Roman Empire," "Show me a code snippet of a website's sticky header," and "Give me ideas for what to do with my kids' art." The background is white with minimal elements.](images/wywm.png)
 
 ## --- collapse ---
 
@@ -27,18 +27,18 @@ This setup will enable you to explore and use advanced generative AI capabilitie
 
 ## --- collapse ---
 
-## title:  Why do we recommend older learners use this project?
+## title: Чому ми рекомендуємо старшим учням й ученицям використовувати цей проєкт?
 
-It's important to understand how you can keep your personal information safe. The Raspberry Pi Foundation is very careful about protecting your data and your privacy, which is why we only recommend this project if you're over 13 years old.
+Важливо розуміти, як захистити свою особисту інформацію. Raspberry Pi Foundation дуже уважно ставиться до захисту твоїх даних і конфіденційності, тому ми рекомендуємо цей проєкт лише тим, хто досяг 13 років.
 
-You might have noticed that many online services ask users to be at least 13 years old. This is because they handle and store data you provide, which can include personal information. Although these services follow strict rules to protect your data, sending information over the internet can sometimes be less secure.
+Можливо, ти знаєш, що багато онлайн-сервісів вимагають від користувачів мати принаймні 13 років. Це тому, що вони обробляють і зберігають надані тобою дані, які можуть включати особисту інформацію. Хоча ці служби дотримуються суворих правил захисту твоїх даних, надсилання інформації через інтернет іноді може бути небезпечним.
 
-When you use generative AI tools on a Raspberry Pi, all of the work happens right on your device. **Your personal data stays on your computer and never leaves it.** This keeps your information safe and secure and lets you explore and learn about AI safely.
+Коли ти використовуєш інструменти генеративного ШІ на Raspberry Pi, уся робота виконується прямо на твоєму пристрої. **Твої особисті дані залишаються на твоєму комп’ютері й ніколи не залишають його.** Це зберігає твою інформацію в безпеці, а також дозволяє тобі досліджувати й дізнаватися нове про безпеку в сфері штучного інтелекту.
 
-But it's also important to know that generative AI can sometimes create **content that isn’t accurate, fair, or appropriate**. These AI models can sometimes "hallucinate" and **produce information that sounds true but isn’t**. So, it’s important to **think carefully about the AI application’s output and double-check it**. As you work with generative AI, make sure to check the information and ask trusted sources if you’re unsure.
+Також важливо знати, що генеративний штучний інтелект іноді може створювати **контент, який не є правдивим, обʼєктивним або прийнятним**. Ці моделі штучного інтелекту іноді можуть «галюцинувати» та **придумувати інформацію, яка звучить правдивою, але не є такою**. Отже, важливо **уважно переглядати дані, отримані від ШІ, та перевіряти їх**. Коли ти працюєш з генеративним штучним інтелектом, обов’язково перевіряй інформацію у надійних джерелах, якщо маєш у ній сумніви.
 
-**Always look at AI-generated content with a careful and thoughtful mind.** If you need help, please ask a parent, guardian, or teacher to guide you.
+**Завжди уважно та вдумливо сприймай контент, створений штучним інтелектом.** Якщо тобі потрібна допомога, попроси про неї батьків, опікунів або вчителів.
 
-Enjoy learning and creating with generative AI!
+А тепер — до навчання і творчості з генеративним штучним інтелектом!
 
 \--- /collapse ---
