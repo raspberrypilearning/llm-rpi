@@ -22,5 +22,5 @@ Wait for the model to download and verify.
 
 6
 00:01:00,520 --> 00:01:04,920
-And you're ready to chat!
+І ти готовий до спілкування!
 
