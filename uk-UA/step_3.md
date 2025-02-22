@@ -29,9 +29,21 @@ You will see some progress bars fill up and then you will be asked to prompt the
 
 \--- task ---
 
-Interact with the model by asking it questions, requesting it to write a poem or story, or as a study aid.
+Interact with the model by asking it questions, requesting it to write a poem or story, or act as a study aid:
 
-![Screenshot of a black background with white text displaying a short, funny poem about skibidi. Whatever that is.](images/skibidi.png)
+```
+>>> write a short funny poem about skibidi
+
+Oh Skibidi, you're a sight to behold,
+A sail that's made of clouds, so light and
+bold.
+Your laughter echoes through the air,
+As you dance across the starry fair.
+With a grin so wide, you fill the sky,
+A twinkle that makes everyone sigh.
+Skibidi, a joy we cannot deny,
+A skibidi, a playful sigh.
+```
 
 Press `Ctrl + D` to exit the LLM prompting process when you are done.
 
