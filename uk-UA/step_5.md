@@ -5,7 +5,7 @@
   </div><br><br>
 </html>
 
-## Image recognition with WebUI
+## Розпізнавання зображень з WebUI
 
 To use Ollama, you must download a model to use. Previously, you used the text-only model `gemma:2b`, but in this step you will use the image analysis model called `LLaVa`.
 
@@ -66,7 +66,7 @@ Upload an image using the "Upload Image" button.
 
 \--- task ---
 
-After uploading, enter a prompt or question about the image in the chat box. Press <kbd>Enter</kbd>.
+After uploading, enter a prompt or question about the image in the chat box. Натисни <kbd>Enter</kbd>.
 
 ![A small image of a fluffy orange cat with a white chest and a pink bow around its neck. The cat is looking directly at the camera with a curious expression. Next to the image, there is a plus symbol and the text "describe this picture".](images/cat_prompt.png)
 
