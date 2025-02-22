@@ -17,5 +17,5 @@ Wait for the model to process.
 
 5
 00:00:45,240 --> 00:00:47,840
-And you're ready to chat!
+І ти готовий до спілкування!
 
