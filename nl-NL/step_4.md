@@ -9,7 +9,7 @@
 
 De WebUI werkt net als elke andere chatbotinterface. Je kunt je prompts ingeven en de reacties bekijken die zijn gegenereerd door het model.
 
-![A screenshot of an AI interface displaying a clean, minimalist design. The text "Hello, MrC" is prominently shown in the center. Below, there is a search bar labeled "How can I help you today?" with a microphone and audio icon to the right. Suggested prompts include "Tell me a fun fact about the Roman Empire," "Show me a code snippet of a website's sticky header," and "Give me ideas for what to do with my kids' art." On the left side, there is a menu with options for "Workspace," "Search," and "Chats." A circular profile icon labeled "M" is in the top right corner.](images/webUI.png)
+![Een screenshot van een AI-interface met een strak, minimalistisch ontwerp. The text "Hello, MrC" is prominently shown in the center. Below, there is a search bar labeled "How can I help you today?" with a microphone and audio icon to the right. Suggested prompts include "Tell me a fun fact about the Roman Empire," "Show me a code snippet of a website's sticky header," and "Give me ideas for what to do with my kids' art." On the left side, there is a menu with options for "Workspace," "Search," and "Chats." A circular profile icon labeled "M" is in the top right corner.](images/webUI.png)
 
 ### Installeer Docker en de WebUI
 
