@@ -4,7 +4,7 @@ Deze leerbron wordt niet aanbevolen voor leerlingen jonger dan 13 jaar. Wij moed
 
 ## Wat ga je maken
 
-![Een screenshot van een AI-interface met een strak, minimalistisch ontwerp. The interface greets the user with "Hello, MrC" and includes a search bar labeled "How can I help you today?" with microphone and audio icons on the right. Below, suggested prompts include "Tell me a fun fact about the Roman Empire," "Show me a code snippet of a website's sticky header," and "Give me ideas for what to do with my kids' art." The background is white with minimal elements.](images/wywm.png)
+![Een schermafbeelding van een AI-interface met een strak, minimalistisch ontwerp. De interface begroet de gebruiker met "Hello, MrC" en bevat een zoekbalk met het label "How can I help you today?" met microfoon- en audiopictogrammen aan de rechterkant. Mogelijke opdrachten zijn onder meer "Vertel me een leuk feit over het Romeinse Rijk, "Toon me een stukje code van een website sticky header," en "Geef me ideeën voor wat ik met de kunst van mijn kinderen moet doen." De achtergrond is wit met minimale elementen.](images/wywm.png)
 
 ## --- collapse ---
 
