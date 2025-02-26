@@ -29,20 +29,23 @@ Tu verras un certain nombre de barres de progression se remplir, puis tu seras i
 
 \--- task ---
 
-Interact with the model by asking it questions, requesting it to write a poem or story, or act as a study aid:
+Communique avec le modèle en lui posant des questions, en lui demandant d'écrire un poème ou une histoire ou en l'utilisant comme support d'étude :
 
 ```
->>> write a short funny poem about skibidi
+>>> écris un petit poème drôle sur skibidi
 
-Oh Skibidi, you're a sight to behold,
-A sail that's made of clouds, so light and
-bold.
-Your laughter echoes through the air,
-As you dance across the starry fair.
-With a grin so wide, you fill the sky,
-A twinkle that makes everyone sigh.
-Skibidi, a joy we cannot deny,
-A skibidi, a playful sigh.
+Skibidi, skibidi, danse sans fin,
+Sous le soleil ou dans le matin,
+Les pieds qui bougent, les bras qui s'agitent,
+Tout le monde rit, même les vieilles mamies !
+
+Les musiques s’enchaînent, c’est la folie,
+Skibidi, skibidi, tout le monde s’y met, c’est écrit,
+Dans les rues, sur les plages, et même au marché,
+Qui peut dire non à ce rythme enchanté ?
+
+Un saut par ici, un tour par là,
+Skibidi, skibidi, et ça n’arrête pas.
 ```
 
 Appuie sur `Ctrl + D` pour quitter le processus LLM lorsque tu as terminé.
