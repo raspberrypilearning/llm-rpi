@@ -1,0 +1,14 @@
+1
+00:00:04,600 --> 00:00:18,880
+Installe docker avec une seule commande.
+
+2
+00:00:18,880 --> 00:00:29,960
+Copie et colle la commande des 
+instructions pour installer WebUI.
+
+3
+00:00:38,040 --> 00:00:41,160
+Ouvre ton navigateur web et 
+accède à localhost:3000.
+

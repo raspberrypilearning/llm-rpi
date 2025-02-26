@@ -1,0 +1,13 @@
+1
+00:00:02,920 --> 00:00:06,160
+Voer een Large Language Model uit op je Raspberry Pi.
+
+2
+00:00:06,160 --> 00:00:12,120
+Typ 'ollama run' en de naam van het model dat je
+wilt gebruiken. In dit voorbeeld gebruiken we gemma:2b.
+
+3
+00:00:20,080 --> 00:00:21,520
+En je bent klaar om te chatten!
+
