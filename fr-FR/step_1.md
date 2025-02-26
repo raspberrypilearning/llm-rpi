@@ -4,7 +4,7 @@ Cette ressource d’apprentissage n’est pas recommandée aux apprenants de moi
 
 ## Ce que tu vas faire
 
-![A screenshot of an AI interface displaying a clean, minimalist design. The interface greets the user with "Hello, MrC" and includes a search bar labeled "How can I help you today?" with microphone and audio icons on the right. Below, suggested prompts include "Tell me a fun fact about the Roman Empire," "Show me a code snippet of a website's sticky header," and "Give me ideas for what to do with my kids' art." The background is white with minimal elements.](images/wywm.png)
+![Une capture d'écran d'une interface IA affichant un design épuré et minimaliste. L'interface accueille l'utilisateur avec « Bonjour, MrC » et comprend une barre de recherche intitulée « Comment puis-je vous aider aujourd'hui ? » avec des icônes de microphone et d'audio sur la droite. Voici quelques suggestions : « Raconte-moi un fait amusant sur l'Empire romain », « Montre-moi un extrait de code d'un sticky header d'un site web » et « Donne-moi des idées sur ce que je peux faire avec les œuvres d'art de mes enfants ». L'arrière-plan est blanc avec des éléments minimaux.](images/wywm.png)
 
 ## --- collapse ---
 
