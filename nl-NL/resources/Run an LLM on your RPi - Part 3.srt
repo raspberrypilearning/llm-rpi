@@ -1,0 +1,14 @@
+1
+00:00:04,600 --> 00:00:18,880
+Docker installeren met één opdracht.
+
+2
+00:00:18,880 --> 00:00:29,960
+Kopieer en plak de opdracht uit
+de instructies om WebUI te installeren.
+
+3
+00:00:38,040 --> 00:00:41,160
+Open je webbrowser en ga
+naar localhost:3000.
+

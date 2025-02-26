@@ -1,0 +1,26 @@
+1
+00:00:03,120 --> 00:00:05,600
+Dans ton navigateur, accède à localhost:3000
+
+2
+00:00:12,440 --> 00:00:29,960
+Crée un compte gratuit sur WebUI : tu 
+peux utiliser des informations inventées pour ton login.
+
+3
+00:00:38,160 --> 00:00:41,160
+Sélectionne le menu déroulant et 
+tape le nom du modèle que tu  
+
+4
+00:00:41,160 --> 00:00:49,680
+veux utiliser. Dans cet exemple nous utilisons LLaVa.
+
+5
+00:00:49,680 --> 00:00:59,920
+Attends que le modèle soit téléchargé et vérifié.
+
+6
+00:01:00,520 --> 00:01:04,920
+Et tu es prêt à discuter !
+

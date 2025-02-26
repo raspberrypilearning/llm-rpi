@@ -1,0 +1,13 @@
+1
+00:00:02,920 --> 00:00:06,160
+Exécute un grand modèle de langage sur ton Raspberry Pi.
+
+2
+00:00:06,160 --> 00:00:12,120
+Tape « ollama run » suivi du nom du modèle que tu 
+souhaite utiliser. Dans cet exemple, nous utilisons gemma:2b.
+
+3
+00:00:20,080 --> 00:00:21,520
+Et tu es prêt à discuter !
+
