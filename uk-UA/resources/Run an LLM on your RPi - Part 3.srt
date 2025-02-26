@@ -1,12 +1,14 @@
 1
-00:00:04,600 --> 00:00:18,880
-Встанови Docker лише за одну команду.
+00:00:04,600 --> 00:00:08,000
+Install docker with a single command.
 
 2
-00:00:18,880 --> 00:00:29,960
-Скопіюй та встав команду з інструкцій для встановлення WebUI.
+00:00:18,880 --> 00:00:23,129
+Copy and paste the command from 
+the instructions to install WebUI.
 
 3
-00:00:38,040 --> 00:00:41,160
-Відкрий свій веб-браузер та перейди до localhost:3000.
+00:00:38,040 --> 00:00:42,247
+Open your web browser and 
+navigate to localhost:3000.
 
