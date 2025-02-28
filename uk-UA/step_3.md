@@ -7,87 +7,88 @@
 
 ## Завантаж і запусти модель для своєї Ollama
 
-In simple terms, "pulling a model" means downloading a specific AI model that Ollama will use to perform tasks.
+Ти завантажиш конкретну модель ШІ, яку Ollama буде використовувати для виконання завдань.
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-There are various models available at [ollama.com/library](https://ollama.com/library){:target="_blank"}. We recommend starting with `gemma:2b`, `phi`, or `tinyllama`. Be cautious with models larger than 5 billion parameters, as they might be too demanding for a standard Raspberry Pi.
+У бібліотеці [ollama.com/library](https://ollama.com/library){:target="_blank"} доступні різні моделі. Ми рекомендуємо почати з `gemma:2b`, `phi` або `tinyllama`. Обережно стався до моделей, розмір яких перевищує 5 мільярдів параметрів, оскільки вони можуть бути надто вимогливими для стандартного Raspberry Pi.
 </p>
 
 \--- task ---
 
-Run the following command, replacing `[model name here]` with the name of the model you want to use:
+Запусти наведену нижче команду, замінивши `[встав назву моделі]` на назву моделі, яку хочеш використовувати:
 
 ```sh
-ollama run [model name here]
+ollama run [встав назву моделі]
 ```
 
-You will see some progress bars fill up and then you will be asked to prompt the model.
+Ти побачиш, як заповнюються індикатори виконання, а потім тобі запропонують дати моделі запит.
 
-![Animation showing a command line interface with the prompt displaying "pi@raspberrypi:~ $" followed by a command being typed.](images/run_gemma2b.gif)
+![Анімація, яка показує інтерфейс командного рядка з підказкою «pi@raspberrypi:~ $», де вводиться команда.](images/run_gemma2b.gif)
 
 \--- /task ---
 
 \--- task ---
 
-Interact with the model by asking it questions, requesting it to write a poem or story, or act as a study aid:
+Дай запит моделі: постав запитання, попроси її написати вірш або оповідання чи допомогти з навчанням:
 
 ```
->>> write a short funny poem about skibidi
+>>> напиши короткий віршик про пса Патрона
 
-Oh Skibidi, you're a sight to behold,
-A sail that's made of clouds, so light and
-bold.
-Your laughter echoes through the air,
-As you dance across the starry fair.
-With a grin so wide, you fill the sky,
-A twinkle that makes everyone sigh.
-Skibidi, a joy we cannot deny,
-A skibidi, a playful sigh.
+Пес Патрон — герой завзятий,
+Любить працювати, грати!
+Швидкий, розумний, просто клас,
+Всім підняти вміє настрій враз!
+Дасть команду — «Гав!» і вмить
+Все під лапкою лежить.
+Та як вечір настає —
+Сон солодкий він знайде.
+Обіймайте, не будіть —
+Завтра знову буде бігти!
 ```
 
-Press `Ctrl + D` to exit the LLM prompting process when you are done.
+Коли закінчиш, натисни `Ctrl + D`, щоб вийти з режиму запитів ВММ.
 
 \--- /task ---
 
 ## --- collapse ---
 
-## title: Recommended models and sizes
+## title: Рекомендовані моделі та розміри
 
-There are lots of models available in the Ollama library, but larger models (models with more parameters) will take more space on your hard disk, as well as needing more time to download and more memory to run.
+У бібліотеці Ollama доступно багато моделей, але більші моделі (моделі з більшою кількістю параметрів) займатимуть більше місця на твоєму жорсткому диску, а також вимагатимуть більше часу для завантаження та більше пам’яті для запуску.
 
-The number of parameters of a model can be thought of as the "size" of the model's training data set: more parameters generally mean the model can find and represent more complex patterns and relationships in the data.
+Кількість параметрів моделі можна розглядати як «розмір» набору даних для тренування моделі: більше параметрів зазвичай означає, що модель може знаходити та представляти складніші шаблони та зв’язки в даних.
 
-Here is a list of models, the number of parameters, and their required size in GB on your hard disk:
+Ось список моделей, кількості параметрів і обсягу памʼяті, яку вони займають на жорсткому диску (у гігабайтах):
 
-| Model name                      | Parameters                   | Size (GB) |
-| ------------------------------- | ---------------------------- | ---------------------------- |
-| oLLama-7B                       | 7 billion                    | 13                           |
-| oLLama-3B                       | 3 billion                    | 6                            |
-| oLLama-1B                       | 1 billion                    | 2                            |
-| oLLama-500M                     | 500 million                  | 1                            |
-| oLLama-300M                     | 300 million                  | 0,6                          |
-| Llama2-7B                       | 7 billion                    | 13                           |
-| Llama2-13B                      | 13 billion                   | 26                           |
-| Phi-3 Mini                      | 3 billion                    | 3.8          |
-| Phi-3 Medium                    | 14 billion                   | 15                           |
-| Orca Mini                       | 7 billion                    | 13                           |
-| Solar                           | 10.7 billion | 6.1-21       |
-| Gemma-2B                        | 2 billion                    | 3.5          |
-| Gemma-7B                        | 7 billion                    | 11.5         |
-| LLaVA-7B                        | 7 billion                    | 5.5          |
-| LLaVA-13B                       | 13 billion                   | 17                           |
-| StarCoder-7B                    | 7 billion                    | 15                           |
-| CodeLlama-7B                    | 7 billion                    | 13                           |
-| Dolphin-2.2-70B | 70 billion                   | 28                           |
-| Magicoder-7B                    | 7 billion                    | 10.5         |
+| Назва моделі                    | Параметри     | Розмір (ГБ) |
+| ------------------------------- | ------------- | ------------------------------ |
+| oLLama-7B                       | 7 мільярдів   | 13                             |
+| oLLama-3B                       | 3 мільярди    | 6                              |
+| oLLama-1B                       | 1 мільярд     | 2                              |
+| oLLama-500M                     | 500 мільйонів | 1                              |
+| oLLama-300M                     | 300 мільйонів | 0,6                            |
+| Llama2-7B                       | 7 мільярдів   | 13                             |
+| Llama2-13B                      | 13 мільярдів  | 26                             |
+| Phi-3 Mini                      | 3 мільярди    | 3,8                            |
+| Phi-3 Medium                    | 14 мільярдів  | 15                             |
+| Orca Mini                       | 7 мільярдів   | 13                             |
+| Solar                           | 10,7 мільярда | 6,1–21                         |
+| Gemma-2B                        | 2 мільярди    | 3,5                            |
+| Gemma-7B                        | 7 мільярдів   | 11,5                           |
+| LLaVA-7B                        | 7 мільярдів   | 5,5                            |
+| LLaVA-13B                       | 13 мільярдів  | 17                             |
+| StarCoder-7B                    | 7 мільярдів   | 15                             |
+| CodeLlama-7B                    | 7 мільярдів   | 13                             |
+| Dolphin-2.2-70B | 70 мільярдів  | 28                             |
+| Magicoder-7B                    | 7 мільярдів   | 10,5                           |
 
-You can download and run any of these models on your Raspberry Pi by opening the terminal and entering:
+Щоб завантажити та запустити будь-яку з цих моделей на Raspberry Pi, відкрий термінал і напиши:
 
 ```bash
-ollama run [Model Name]
+ollama run [назва моделі]
 ```
 
-For example, to run `gemma:2b`, type:
+Наприклад, щоб запустити `gemma:2b`, введи:
 
 ```bash
 ollama run gemma:2b
