@@ -4,26 +4,26 @@
 
 ## Що ти зробиш
 
-![A screenshot of an AI interface displaying a clean, minimalist design. The interface greets the user with "Hello, MrC" and includes a search bar labeled "How can I help you today?" with microphone and audio icons on the right. Below, suggested prompts include "Tell me a fun fact about the Roman Empire," "Show me a code snippet of a website's sticky header," and "Give me ideas for what to do with my kids' art." The background is white with minimal elements.](images/wywm.png)
+![Знімок екрана інтерфейсу ШІ з чітким мінімалістичним дизайном. Інтерфейс вітає користувача словами «Вітаю, MrC» англійською мовою і містить панель пошуку з підписом «Чим я можу вам допомогти?» зі значками мікрофона та звуку праворуч. Нижче запропоновані запити: «Розкажи мені цікавий факт про Римську імперію», «Покажи мені фрагмент коду для заголовка вебсайту» та «Дай мені ідеї, що робити з малюнками моїх дітей». Тло біле з мінімальною кількістю елементів.](images/wywm.png)
 
 ## --- collapse ---
 
 ## title: Немає доступу до YouTube? Завантаж відео!
 
-You can download all the resources for this project, including the above video [by clicking here](https://rpf.io/p/en/llm-rpi-go){:target="_blank"}.
+Ти можеш завантажити всі ресурси для цього проєкту, включно з відео вище, [якщо натиснеш тут](https://rpf.io/p/en/llm-rpi-go){:target="_blank"}.
 
 \--- /collapse ---
 
-[Ollama](https://ollama.com){:target="_blank"} is an open-source tool designed to run large language models (LLMs) on your Raspberry Pi itself, rather than over the internet.
+[Ollama](https://ollama.com){:target="_blank"} – це інструмент із відкритим вихідним кодом, розроблений для запуску великих мовних моделей (ВММ) на твоєму компʼютері Raspberry Pi, а не в інтернеті.
 
-By following these steps, you will transform your Raspberry Pi into a powerful AI assistant using Ollama. You will install Ollama along with its WebUI interface, pull a suitable AI model, and interact with it to perform various tasks such as answering questions, helping you write a story, or providing support.
+Дотримуючись цих кроків, ти зробиш зі свого Raspberry Pi потужного помічника зі штучним інтелектом за допомогою Ollama. Ти встановиш Ollama та її інтерфейс WebUI, підбереш відповідну модель ШІ та взаємодіятимеш із нею, щоб виконувати різноманітні завдання, наприклад відповідати на запитання, допомагати тобі писати оповідання чи надавати підтримку.
 
-This setup will enable you to explore and use advanced generative AI capabilities directly from your Raspberry Pi.
+Цей проєкт дозволить тобі досліджувати та використовувати передові можливості генеративного ШІ безпосередньо на твоєму Raspberry Pi.
 
-### Вам потрібно:
+### Тобі знадобиться:
 
-- A Raspberry Pi 4 or 5 with a micro SD card of **at least** 32GB storage
-- An internet connection for the Raspberry Pi
+- Компʼютер Raspberry Pi 4 або 5 з картою micro SD **принаймні** на 32 ГБ памʼяті.
+- Доступ до інтернету для Raspberry Pi.
 
 ## --- collapse ---
 
