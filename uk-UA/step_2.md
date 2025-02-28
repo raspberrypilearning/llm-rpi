@@ -11,7 +11,7 @@
 
 Відкрий вікно терміналу на Raspberry Pi.
 
-Для початку тобі потрібно відкрити термінал. You can do this by clicking on the terminal icon or by pressing `Ctrl + Alt + T`.
+Для початку тобі потрібно відкрити термінал. Для цього вибери значок терміналу або натисни `Ctrl + Alt + T` (англійська).
 
 ![Icon of a terminal window with a grey background and a blue title bar at the top, featuring a white command prompt symbol in the center.](images/terminal.png)
 
@@ -19,14 +19,14 @@
 
 \--- task ---
 
-Install Ollama.
+Встанови Ollama.
 
-Use the following shell script to install Ollama and the WebUI interface:
+Використай наступний скрипт командної оболонки, щоб установити Ollama та інтерфейс WebUI:
 
 ```sh
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-This installation process might take some time. You will know it's complete when the terminal prompt reappears.
+Процес встановлення може тривати деякий час. You will know it's complete when the terminal prompt reappears.
 
 \--- /task ---
