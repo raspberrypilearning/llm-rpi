@@ -27,6 +27,6 @@
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-Процес встановлення може тривати деякий час. You will know it's complete when the terminal prompt reappears.
+Процес встановлення може тривати деякий час. Коли знову зʼявиться підказка терміналу, це означатиме, що встановлення завершилося.
 
 \--- /task ---
