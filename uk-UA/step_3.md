@@ -5,7 +5,7 @@
   </div>
 </html>
 
-## Pull and run a model for your Ollama
+## Завантаж і запусти модель для своєї Ollama
 
 In simple terms, "pulling a model" means downloading a specific AI model that Ollama will use to perform tasks.
 
@@ -23,7 +23,7 @@ ollama run [model name here]
 
 You will see some progress bars fill up and then you will be asked to prompt the model.
 
-![Animation showing a command line interface with the prompt displaying "pi@raspberrypi:\~ $" followed by a command being typed.](images/run_gemma2b.gif)
+![Animation showing a command line interface with the prompt displaying "pi@raspberrypi:~ $" followed by a command being typed.](images/run_gemma2b.gif)
 
 \--- /task ---
 
