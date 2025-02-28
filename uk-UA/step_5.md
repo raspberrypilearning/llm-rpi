@@ -7,39 +7,39 @@
 
 ## Розпізнавання зображень з WebUI
 
-To use Ollama, you must download a model to use. Previously, you used the text-only model `gemma:2b`, but in this step you will use the image analysis model called `LLaVa`.
+Щоб використовувати Ollama, ти маєш завантажити якусь модель. У попередніх кроках ми використовували лише текстову модель `gemma:2b`, але зараз ти будеш використовувати модель аналізу зображень під назвою `LLaVa`.
 
 \--- task ---
 
-To download the LLaVA model, access the WebUI at `http://localhost:3000`.
+Щоб завантажити модель LLaVA, зайди у WebUI за адресою `http://localhost:3000`.
 
 \--- /task ---
 
 \--- task ---
 
-Sign-up for Ollama WebUI.
+Зареєструйтеся в Ollama WebUI.
 
-When using WebUI for the first time, you will be asked to provide a name, email, and password. You can use any made-up email for this, it is only for local use on your Raspberry Pi.
+Під час першого використання WebUI тебе попросять ввести ім’я, електронну адресу та пароль. Ти можеш використовувати для цього будь-яку несправжню електронну пошту, вона призначена лише для локального використання на твоєму Raspberry Pi.
 
-![A signup form for "Open WebUI" with fields for name, email, and password. The name field is filled with "Mr.C", the email field with "test@whatever.com", and the password field shows a series of dots indicating a hidden password. Below these fields, there is a "Create Account" button with a cursor pointing at it, and a link for users who already have an account to sign in.](images/webUI_signup.png)
-
-\--- /task ---
-
-\--- task ---
-
-Choose which model to use from the drop-down menu at the top of the WebUI. You can also search for and add new models this way — type `llava:latest` into the search and choose `Pull llava:latest from Ollama.com`. Your model will begin to download.
-
-![A drop-down menu with the title "Select a model" shows a search field with the text "llava:latest" entered. Below the search field, the text "No results found" is displayed, followed by a selectable option to "Pull 'llava:latest' from Ollama.com". A cursor is hovering over this option.](images/model_dropdown.png)
+![Форма реєстрації Open WebUI з полями для імені, електронної пошти та пароля. У полі для імені написано «Mr.C», у полі електронної пошти — «test@whatever.com», а поле пароля містить серію крапок, що вказують на прихований пароль. Під цими полями є кнопка «Створити обліковий запис», на яку вказує курсор, і посилання для входу для користувачів, які вже мають обліковий запис.](images/webUI_signup.png)
 
 \--- /task ---
 
 \--- task ---
 
-Wait for the model to download and verify. This may take some time.
+У спадному меню у верхній частині WebUI вибери модель, яку ти будеш використовувати. Ти також можеш шукати та додавати нові моделі таким чином — введи `llava:latest` у пошук і вибери `Pull llava:latest from Ollama.com` (з англійської «завантажити останню модель з Ollama.com»). Вибрана модель почне завантажуватися.
+
+![Спадне меню із заголовком англійською «Виберіть модель» показує поле пошуку з введеним текстом «llava:latest». Під полем пошуку відображається текст англійською «Результатів не знайдено», а потім опція «Завантажити 'llava:latest' з Ollama.com». Над цією опцією наведено курсор.](images/model_dropdown.png)
 
 \--- /task ---
 
-### Use LLaVa to analyse an image
+\--- task ---
+
+Дочекайся завантаження моделі та перевір її. Це може тривати певний час.
+
+\--- /task ---
+
+### Використовуй LLaVa для аналізу зображення
 
 <html>
 <br><br>
@@ -51,36 +51,36 @@ Wait for the model to download and verify. This may take some time.
 
 \--- task ---
 
-Once the LLaVA model is downloaded, start a new chat session by selecting the model from the available options.
+Після завантаження моделі LLaVA почни новий сеанс чату, вибравши модель із доступних варіантів.
 
-![Screenshot showing the model selection menu with "llava:latest 7B" highlighted.](images/select_llava_model.png)
-
-\--- /task ---
-
-\--- task ---
-
-Upload an image using the "Upload Image" button.
-![A user interface element with two buttons: "Upload Files" at the top with a document icon, and a "Send a Message" button below it, which is grayed out and includes a plus symbol. A cursor is pointing to the plus symbol on the "Send a Message" button.](images/upload_image.png)
+![Знімок екрана, на якому показано меню вибору моделі з вибраною опцією «llava:latest 7B».](images/select_llava_model.png)
 
 \--- /task ---
 
 \--- task ---
 
-After uploading, enter a prompt or question about the image in the chat box. Натисни <kbd>Enter</kbd>.
-
-![A small image of a fluffy orange cat with a white chest and a pink bow around its neck. The cat is looking directly at the camera with a curious expression. Next to the image, there is a plus symbol and the text "describe this picture".](images/cat_prompt.png)
+Завантаж зображення за допомогою кнопки Upload Image («Завантажити зображення»).
+![Елемент інтерфейсу користувача з двома кнопками: «Завантажити файли» вгорі зі значком документа та «Надіслати повідомлення» під ним, яка є сірою та містить символ плюса. Курсор вказує на символ плюса на кнопці «Надіслати повідомлення».](images/upload_image.png)
 
 \--- /task ---
 
 \--- task ---
 
-Review the description or analysis generated by the LLaVA model. You can ask more questions or upload additional images.
+Після завантаження введи запит або питання щодо зображення у вікні чату. Натисни <kbd>Enter</kbd>.
 
-Using this image:
-![The image shows a close-up of a domestic shorthair cat with striking large eyes and an attentive expression. The cat has a fluffy fur coat, primarily in shades of cream and white, with darker markings on its face, ears, and paws. It appears to be sitting or laying down, with its front paws slightly extended towards the viewer. The cat's tail is coiled up against its body. Behind the cat is a bouquet of lavender flowers, adding a touch of color and texture to the image. On the left side of the photo, there is a purple hue, suggesting a blue wall or background. In the foreground, a wooden surface can be seen, possibly a table or a counter, with some herbs placed in a container on the top right corner. The overall style of the image is realistic with a focus on detail and a shallow depth of field that highlights the cat's features.](images/cat.jpg)
+![Маленьке зображення пухнастої рудої кішки з білими плямами та рожевим бантом на шиї. Кішка дивиться прямо в камеру з цікавим виразом. Поруч із зображенням є символ плюса та текст англійською «опиши це зображення».](images/cat_prompt.png)
 
-LLaVa provided this description:
+\--- /task ---
 
-`The image shows a close-up of a domestic shorthair cat with striking large eyes and an attentive expression. The cat has a fluffy fur coat, primarily in shades of cream and white, with darker markings on its face, ears, and paws. It appears to be sitting or laying down, with its front paws slightly extended towards the viewer. The cat's tail is coiled up against its body. Behind the cat is a bouquet of lavender flowers, adding a touch of color and texture to the image. On the left side of the photo, there is a purple hue, suggesting a blue wall or background. In the foreground, a wooden surface can be seen, possibly a table or a counter, with some herbs placed in a container on the top right corner. The overall style of the image is realistic with a focus on detail and a shallow depth of field that highlights the cat's features.`
+\--- task ---
+
+Переглянь опис або аналіз, згенерований моделлю LLaVA. Ти можеш поставити додаткові запитання або завантажити додаткові зображення.
+
+Використовуючи це зображення:
+![На зображенні великим планом показано домашнього короткошерстого кота з незвично великими очима та уважним виразом обличчя. Кіт має пухнасту шерстку, переважно кремового та білого відтінків, з темнішими плямами на морді, вухах і лапах. Він сидить або лежить, передні лапи злегка витягнуті до глядача. Хвіст кота згорнутий навколо тіла. Позаду кота – букет квітів лаванди, що додає зображенню кольору та атмосфери. У лівій частині зображення видно фіолетовий відтінок, що свідчить про блакитну стіну або фон. На передньому плані бачимо дерев’яну поверхню, можливо, стіл або поличку, у верхньому правому кутку якого розміщені трави у контейнері. Загальний стиль зображення реалістичний із акцентом на деталях і малою глибиною різкості, що підкреслює риси кота.](images/cat.jpg)
+
+LLaVa надала цей опис (перекладено з англійської):
+
+На зображенні великим планом показано домашнього короткошерстого кота з незвично великими очима та уважним виразом обличчя. Кіт має пухнасту шерстку, переважно кремового та білого відтінків, з темнішими плямами на морді, вухах і лапах. Він сидить або лежить, передні лапи злегка витягнуті до глядача. Хвіст кота згорнутий навколо тіла. Позаду кота – букет квітів лаванди, що додає зображенню кольору та атмосфери. У лівій частині зображення видно фіолетовий відтінок, що свідчить про блакитну стіну або фон. На передньому плані бачимо дерев’яну поверхню, можливо, стіл або поличку, у верхньому правому кутку якого розміщені трави у контейнері. Загальний стиль зображення реалістичний із акцентом на деталях і малою глибиною різкості, що підкреслює риси кота.\`
 
 \--- /task ---
