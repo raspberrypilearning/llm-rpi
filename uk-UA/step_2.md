@@ -13,7 +13,7 @@
 
 Для початку тобі потрібно відкрити термінал. Для цього вибери значок терміналу або натисни `Ctrl + Alt + T` (англійська).
 
-![Icon of a terminal window with a grey background and a blue title bar at the top, featuring a white command prompt symbol in the center.](images/terminal.png)
+![Значок вікна терміналу з сірим фоном, синім рядком заголовка вгорі та білим символом командного рядка в центрі.](images/terminal.png)
 
 \--- /task ---
 
