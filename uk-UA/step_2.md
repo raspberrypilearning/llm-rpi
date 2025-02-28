@@ -1,4 +1,4 @@
-## Install Ollama on your Raspberry Pi
+## Встанови Ollama на компʼютері Raspberry Pi
 
 <html>
   <div style="position: relative; overflow: hidden; padding-top: 56.25%;">
@@ -9,7 +9,7 @@
 
 \--- task ---
 
-Open a terminal window on your Raspberry Pi
+Відкрий вікно терміналу на Raspberry Pi.
 
 Для початку тобі потрібно відкрити термінал. You can do this by clicking on the terminal icon or by pressing `Ctrl + Alt + T`.
 
