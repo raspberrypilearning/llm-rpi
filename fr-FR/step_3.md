@@ -23,7 +23,7 @@ ollama run [model name here]
 
 Tu verras un certain nombre de barres de progression se remplir, puis tu seras invité à activer le modèle.
 
-![Animation montrant une interface de ligne de commande avec le prompt affichant "pi@raspberrypi:\~ $" suivi de la saisie d'une commande.](images/run_gemma2b.gif)
+![Animation montrant une interface de ligne de commande avec le prompt affichant "pi@raspberrypi:~ $" suivi de la saisie d'une commande.](images/run_gemma2b.gif)
 
 \--- /task ---
 
