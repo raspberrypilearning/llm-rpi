@@ -23,7 +23,7 @@ ollama run [model name here]
 
 Je ziet dat er een aantal voortgangsbalken worden gevuld en vervolgens word je gevraagd om het model te activeren.
 
-![Animatie van een opdrachtregelinterface met de prompt die "pi@raspberrypi:\~ $" weergeeft, gevolgd door een opdracht die wordt getypt.](images/run_gemma2b.gif)
+![Animatie van een opdrachtregelinterface met de prompt die "pi@raspberrypi:~ $" weergeeft, gevolgd door een opdracht die wordt getypt.](images/run_gemma2b.gif)
 
 \--- /task ---
 
