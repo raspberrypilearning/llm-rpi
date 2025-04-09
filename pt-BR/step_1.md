@@ -8,7 +8,7 @@ This learning resource is not recommended for learners below the age of 13. We e
 
 ## --- collapse ---
 
-## title: No YouTube? Download the videos!
+## Título: Sem YouTube? Baixe os vídeos!
 
 You can download all the resources for this project, including the above video [by clicking here](https://rpf.io/p/en/llm-rpi-go){:target="_blank"}.
 
