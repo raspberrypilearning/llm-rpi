@@ -1,5 +1,5 @@
-## What can you do now?
+## O que se segue?
 
-Learn how to make awesome prompts that get reliable output from Large Language Models in our [Prompt an LLM](http://rpf.io/llmprompt) project, or [Run an Image Generator on your Raspberry Pi](http://rpf.io/sdpi)!
+Aprende a criar prompts incríveis que obtêm resultados fiáveis de Large Language Models no nosso projeto [Prompt um LLM](http://rpf.io/llmprompt) ou [Executa um Gerador de Imagens no teu Raspberry Pi](http://rpf.io/sdpi)!
 
-There are lots of other machine learning and AI projects in the [artificial intelligence](https://projects.raspberrypi.org/en/pathways/ai-toolkit) toolkit.
+Existem muitos outros projetos de machine learning e IA no kit de ferramentas de [inteligência artificial](https://projects.raspberrypi.org/pt-PT/pathways/ai-toolkit).
