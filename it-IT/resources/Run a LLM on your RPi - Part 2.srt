@@ -1,13 +1,13 @@
 1
 00:00:02,920 --> 00:00:06,160
-Run a Large Language Model on your raspberry Pi.
+Esegui un modello linguistico di grandi dimensioni sul tuo Raspberry Pi.
 
 2
 00:00:06,160 --> 00:00:12,120
-Type 'ollama run' and the name of the model you 
-want to use. In this example we use gemma:2b.
+Digita 'ollama run' e il nome del modello che
+vuoi usare. In questo esempio usiamo gemma:2b.
 
 3
 00:00:20,080 --> 00:00:21,520
-And you're ready to chat!
+E ora potrai chattare!
 
