@@ -1,44 +1,44 @@
 <p style='border-left: solid; border-width:10px; border-color: #FFA500; background-color: #FFFACD; padding: 10px;'>
-This learning resource is not recommended for learners below the age of 13. We encourage users to engage with this material responsibly and to seek guidance from a trusted adult when necessary.
+Questa risorsa didattica non è consigliata agli studenti di età inferiore ai 13 anni. Invitiamo gli utenti a utilizzare questo materiale in modo responsabile e, quando necessario, a chiedere consiglio a un adulto fidato.
 </p>
 
 ## Cosa creerai
 
-![A screenshot of an AI interface displaying a clean, minimalist design. The interface greets the user with "Hello, MrC" and includes a search bar labeled "How can I help you today?" with microphone and audio icons on the right. Below, suggested prompts include "Tell me a fun fact about the Roman Empire," "Show me a code snippet of a website's sticky header," and "Give me ideas for what to do with my kids' art." The background is white with minimal elements.](images/wywm.png)
+![Uno screenshot di un'interfaccia IA con un design pulito e minimalista. L'interfaccia saluta l'utente con "Ciao, MrC" e include una barra di ricerca con la didascalia "Come posso aiutarti oggi?" con icone per microfono e audio sulla destra. Sotto, ci sono prompt come "Raccontami una curiosità sull’Impero Romano", "Mostrami un esempio di codice per l'intestazione fissa di un sito web" e "Dammi idee su cosa fare con i disegni dei miei figli". Lo sfondo è bianco con pochi elementi.](images/wywm.png)
 
 ## --- collapse ---
 
 ## title: Non riesci ad accedere a YouTube? Scarica i video!
 
-You can download all the resources for this project, including the above video [by clicking here](https://rpf.io/p/en/llm-rpi-go){:target="_blank"}.
+Puoi scaricare tutte le risorse di questo progetto, incluso il video sopra, [cliccando qui](https://rpf.io/p/en/llm-rpi-go){:target="_blank"}.
 
 \--- /collapse ---
 
-[Ollama](https://ollama.com){:target="_blank"} is an open-source tool designed to run large language models (LLMs) on your Raspberry Pi itself, rather than over the internet.
+[Ollama](https://ollama.com){:target="_blank"} è uno strumento open source progettato per eseguire modelli linguistici di grandi dimensioni (LLM) direttamente sul tuo Raspberry Pi, senza bisogno di connessione a internet.
 
-By following these steps, you will transform your Raspberry Pi into a powerful AI assistant using Ollama. You will install Ollama along with its WebUI interface, pull a suitable AI model, and interact with it to perform various tasks such as answering questions, helping you write a story, or providing support.
+Seguendo questi passaggi, trasformerai il tuo Raspberry Pi in un potente assistente IA utilizzando Ollama. Installerai Ollama con la sua interfaccia WebUI, scaricherai un modello IA e potrai usarlo per svolgere diverse attività, come rispondere a domande, aiutarti a scrivere una storia o darti supporto.
 
-This setup will enable you to explore and use advanced generative AI capabilities directly from your Raspberry Pi.
+Questa configurazione ti consentirà di esplorare e utilizzare le funzionalità avanzate di intelligenza artificiale generativa direttamente dal tuo Raspberry Pi.
 
 ### Ti serviranno:
 
-- A Raspberry Pi 4 or 5 with a micro SD card of **at least** 32GB storage
-- An internet connection for the Raspberry Pi
+- Un Raspberry Pi 4 o 5 con una scheda micro SD con **almeno** 32GB di memoria
+- Una connessione internet per il Raspberry Pi
 
 ## --- collapse ---
 
-## title:  Why do we recommend older learners use this project?
+## titolo: Perché consigliamo questo progetto agli studenti più grandi?
 
-It's important to understand how you can keep your personal information safe. The Raspberry Pi Foundation is very careful about protecting your data and your privacy, which is why we only recommend this project if you're over 13 years old.
+È importante sapere come proteggere le proprie informazioni personali. La Raspberry Pi Foundation tiene molto alla sicurezza dei dati e alla privacy, ed è per questo che consigliamo questo progetto solo a chi ha più di 13 anni.
 
-You might have noticed that many online services ask users to be at least 13 years old. This is because they handle and store data you provide, which can include personal information. Although these services follow strict rules to protect your data, sending information over the internet can sometimes be less secure.
+Probabilmente avrai notato che molti servizi online richiedono un'età minima di 13 anni. Questo succede perché questi servizi gestiscono e memorizzano i dati che fornisci, che possono includere informazioni personali. Sebbene questi servizi seguano regole rigorose per proteggere la tua privacy, l’invio di informazioni su internet può talvolta comportare dei rischi.
 
-When you use generative AI tools on a Raspberry Pi, all of the work happens right on your device. **Your personal data stays on your computer and never leaves it.** This keeps your information safe and secure and lets you explore and learn about AI safely.
+Quando utilizzi strumenti di intelligenza artificiale generativa su un Raspberry Pi, tutto il processo avviene direttamente sul tuo dispositivo. **I tuoi dati personali rimangono sul tuo computer e non vengono mai inviati altrove.** Questo aiuta a mantenere le tue informazioni private e al sicuro, e ti consente di esplorare e apprendere sull'intelligenza artificiale in tutta tranquillità.
 
-But it's also important to know that generative AI can sometimes create **content that isn’t accurate, fair, or appropriate**. These AI models can sometimes "hallucinate" and **produce information that sounds true but isn’t**. So, it’s important to **think carefully about the AI application’s output and double-check it**. As you work with generative AI, make sure to check the information and ask trusted sources if you’re unsure.
+Inoltre, è importante sapere che l'intelligenza artificiale generativa può a volte produrre **contenuti imprecisi, non equi o inappropriati**.  Questi modelli possono anche produrre “allucinazioni”, ovvero **generare informazioni che sembrano corrette ma in realtà non lo sono**. Per questo è fondamentale **valutare con attenzione i risultati forniti dall’IA e verificarli**. Quando usi l'intelligenza artificiale generativa, assicurati di controllare le informazioni e, in caso di dubbi, consulta fonti attendibili.
 
-**Always look at AI-generated content with a careful and thoughtful mind.** If you need help, please ask a parent, guardian, or teacher to guide you.
+**Guarda sempre i contenuti generati dall’IA con occhio critico e attento.** Se hai bisogno di aiuto, chiedi il supporto di un genitore, un tutore o un insegnante.
 
-Enjoy learning and creating with generative AI!
+Divertiti ad imparare e a creare con l'intelligenza artificiale generativa!
 
 \--- /collapse ---
