@@ -5,41 +5,41 @@
   </div><br><br>
 </html>
 
-## Image recognition with WebUI
+## Reconhecimento de imagem com WebUI
 
-To use Ollama, you must download a model to use. Previously, you used the text-only model `gemma:2b`, but in this step you will use the image analysis model called `LLaVa`.
+Para utilizar o Ollama, deves descarregar um modelo para usar. Anteriormente, usaste o modelo `gemma:2b` só de texto, mas nesta etapa vais utilizar o modelo de análise de imagem, chamado `LLaVa`.
 
 \--- task ---
 
-To download the LLaVA model, access the WebUI at `http://localhost:3000`.
+Para descarregar o modelo LLaVA, acede ao WebUI em `http://localhost:3000`.
 
 \--- /task ---
 
 \--- task ---
 
-Sign-up for Ollama WebUI.
+Regista-te no Ollama WebUI.
 
-When using WebUI for the first time, you will be asked to provide a name, email, and password. You can use any made-up email for this, it is only for local use on your Raspberry Pi.
+Ao utilizar o WebUI pela primeira vez, vai ser-te pedido que forneças um nome, e-mail e palavra-passe. Podes usar qualquer e-mail inventado para este efeito, é apenas para uso local no teu Raspberry Pi.
 
-![A signup form for "Open WebUI" with fields for name, email, and password. The name field is filled with "Mr.C", the email field with "test@whatever.com", and the password field shows a series of dots indicating a hidden password. Below these fields, there is a "Create Account" button with a cursor pointing at it, and a link for users who already have an account to sign in.](images/webUI_signup.png)
-
-\--- /task ---
-
-\--- task ---
-
-Choose which model to use from the drop-down menu at the top of the WebUI. You can also search for and add new models this way — type `llava:latest` into the search and choose `Pull llava:latest from Ollama.com`. Your model will begin to download.
-
-![A drop-down menu with the title "Select a model" shows a search field with the text "llava:latest" entered. Below the search field, the text "No results found" is displayed, followed by a selectable option to "Pull 'llava:latest' from Ollama.com". A cursor is hovering over this option.](images/model_dropdown.png)
+![Um formulário de cadastro para "Abrir WebUI" com campos para nome, e-mail, e palavra-passe. O campo do nome é preenchido com "Sr. C", o campo de e-mail com "teste@qualquercoisa.com" e o campo palavra-passe mostra uma série de pontos que indicam uma palavra-passe oculta. Debaixo destes campos, há um botão com um cursor apontado para ele e uma ligação para utilizadores que já tenham uma conta criada para entrar.](images/webUI_signup.png)
 
 \--- /task ---
 
 \--- task ---
 
-Wait for the model to download and verify. This may take some time.
+Escolhe que modelo queres usar do menu suspenso no topo da WebUI. Também podes pesquisar e adicionar novos modelos desta forma — escreves `llava:latest` na pesquisa e escolhes `Pull llava:latest from Ollama.com`. O teu modelo começará a descarregar.
+
+![Um menu suspenso com o título "Selecionar um modelo" mostra um campo de pesquisa com o texto "llava:latest" introduzido. Abaixo do campo de pesquisa, é apresentado o texto "Nenhum resultado encontrado", seguido de uma opção selecionável para "Pull 'llava:latest' do Ollama.com". Um cursor está em cima desta opção.](images/model_dropdown.png)
 
 \--- /task ---
 
-### Use LLaVa to analyse an image
+\--- task ---
+
+Espera que o modelo descarregue e verifica-o. Isto pode demorar algum tempo.
+
+\--- /task ---
+
+### Usa LLaVa para analisar uma imagem
 
 <html>
 <br><br>
@@ -51,36 +51,36 @@ Wait for the model to download and verify. This may take some time.
 
 \--- task ---
 
-Once the LLaVA model is downloaded, start a new chat session by selecting the model from the available options.
+Assim que o modelo LLaVA descarregar, inicia uma nova sessão selecionando o modelo entre as opções disponíveis.
 
-![Screenshot showing the model selection menu with "llava:latest 7B" highlighted.](images/select_llava_model.png)
-
-\--- /task ---
-
-\--- task ---
-
-Upload an image using the "Upload Image" button.
-![A user interface element with two buttons: "Upload Files" at the top with a document icon, and a "Send a Message" button below it, which is grayed out and includes a plus symbol. A cursor is pointing to the plus symbol on the "Send a Message" button.](images/upload_image.png)
+![Captura de ecrã que mostra o menu de seleção de modelos com "llava:latest 7B" destacado.](images/select_llava_model.png)
 
 \--- /task ---
 
 \--- task ---
 
-After uploading, enter a prompt or question about the image in the chat box. Press <kbd>Enter</kbd>.
-
-![A small image of a fluffy orange cat with a white chest and a pink bow around its neck. The cat is looking directly at the camera with a curious expression. Next to the image, there is a plus symbol and the text "describe this picture".](images/cat_prompt.png)
+Carrega uma imagem utilizando o botão "Carregar imagem".
+![Um elemento da interface do utilizador com dois botões: "Carregar ficheiros" na parte superior com um ícone de documento e um botão "Enviar uma mensagem" por baixo, que está a cinzento e inclui um símbolo de mais. Um cursor aponta para o símbolo de mais no botão "Enviar uma mensagem".](images/upload_image.png)
 
 \--- /task ---
 
 \--- task ---
 
-Review the description or analysis generated by the LLaVA model. You can ask more questions or upload additional images.
+Após o carregamento, introduza um prompt ou uma pergunta sobre a imagem na caixa de chat. Pressiona <kbd>Enter</kbd>.
 
-Using this image:
-![The image shows a close-up of a domestic shorthair cat with striking large eyes and an attentive expression. The cat has a fluffy fur coat, primarily in shades of cream and white, with darker markings on its face, ears, and paws. It appears to be sitting or laying down, with its front paws slightly extended towards the viewer. The cat's tail is coiled up against its body. Behind the cat is a bouquet of lavender flowers, adding a touch of color and texture to the image. On the left side of the photo, there is a purple hue, suggesting a blue wall or background. In the foreground, a wooden surface can be seen, possibly a table or a counter, with some herbs placed in a container on the top right corner. The overall style of the image is realistic with a focus on detail and a shallow depth of field that highlights the cat's features.](images/cat.jpg)
+![Uma pequena imagem de um gato laranja felpudo com pelo branco no peito e um laço cor-de-rosa em torno do pescoço. O gato olha diretamente para a câmara com uma expressão curiosa. Ao lado da imagem, existe um símbolo de mais e o texto "descreva esta imagem".](images/cat_prompt.png)
 
-LLaVa provided this description:
+\--- /task ---
 
-`The image shows a close-up of a domestic shorthair cat with striking large eyes and an attentive expression. The cat has a fluffy fur coat, primarily in shades of cream and white, with darker markings on its face, ears, and paws. It appears to be sitting or laying down, with its front paws slightly extended towards the viewer. The cat's tail is coiled up against its body. Behind the cat is a bouquet of lavender flowers, adding a touch of color and texture to the image. On the left side of the photo, there is a purple hue, suggesting a blue wall or background. In the foreground, a wooden surface can be seen, possibly a table or a counter, with some herbs placed in a container on the top right corner. The overall style of the image is realistic with a focus on detail and a shallow depth of field that highlights the cat's features.`
+\--- task ---
+
+Revê a descrição ou análise gerada pelo modelo LLaVA. Podes fazer mais perguntas ou enviar imagens adicionais.
+
+Utilizar esta imagem:
+![A imagem mostra um grande plano de um gato doméstico de pelo curto com olhos grandes e marcantes, e uma expressão atenta. O gato tem uma pelagem felpuda, principalmente em tons de creme e branco, com manchas mais escuras na cara, orelhas e patas. Parece estar sentado ou deitado, com as patas da frente ligeiramente estendidas em direção ao espetador. O rabo do gato está enrolado no seu corpo. Atrás do gato está um ramo de flores de lavanda, acrescentando um toque de cor e textura à imagem. No lado esquerdo da foto, há um tom roxo, sugerindo uma parede azul ou um fundo. Em primeiro plano, uma superfície de madeira pode ser vista, possivelmente uma mesa ou um balcão, com algumas ervas colocadas num recipiente no canto superior direito. O estilo geral da imagem é realista com foco em detalhes e com uma reduzida profundidade de campo que destaca as características do gato. (images/cat.jpg)
+
+LLaVa forneceu esta descrição:
+
+`A imagem mostra um grande plano de um gato doméstico de pelo curto com olhos grandes e marcantes, e uma expressão atenta. O gato tem uma pelagem felpuda, principalmente em tons de creme e branco, com manchas mais escuras na cara, orelhas e patas. Parece estar sentado ou deitado, com as patas da frente ligeiramente estendidas em direção ao espetador. O rabo do gato está enrolado no seu corpo. Atrás do gato está um ramo de flores de lavanda, acrescentando um toque de cor e textura à imagem. No lado esquerdo da foto, há um tom roxo, sugerindo uma parede azul ou um fundo. Em primeiro plano, uma superfície de madeira pode ser vista, possivelmente uma mesa ou um balcão, com algumas ervas colocadas num recipiente no canto superior direito. O estilo geral da imagem é realista com foco em detalhes e com uma reduzida profundidade de campo que destaca as características do gato.`
 
 \--- /task ---
