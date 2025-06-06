@@ -1,0 +1,21 @@
+---
+title: Esegui un modello linguistico di grandi dimensioni sul tuo Raspberry Pi
+hero_image: images/banner.png
+description: Installa il modello linguistico di grandi dimensioni (LLM) open-source Ollama sul tuo computer Raspberry Pi.
+version: 4
+listed: true
+copyedit: false
+last_tested: "2022-05-19"
+steps:
+  - title: Cosa creerai
+  - title: Installa il modello linguistico di grandi dimensioni (LLM)
+    completion:
+    - engaged
+  - title: Esegui un modello
+  - title: Usa l'interfaccia web (WebUI)
+  - title: Riconoscimento delle immagini con WebUI
+    completion:
+    - internal
+  - title: Cosa puoi fare adesso?
+    completion:
+    - external
