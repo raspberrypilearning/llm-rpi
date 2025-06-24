@@ -1,0 +1,17 @@
+1
+00:00:02,960 --> 00:00:06,680
+Instala Ollama no teu Raspberry Pi.
+
+2
+00:00:06,680 --> 00:00:14,960
+Escreve este comando no 
+terminal do teu Raspberry Pi.
+
+3
+00:00:14,960 --> 00:00:23,880
+Espera que o ollama instale.
+
+4
+00:00:23,880 --> 00:00:25,560
+E estás pronto para começar.
+

@@ -1,0 +1,21 @@
+---
+title: Executa um large language model no teu Raspberry Pi
+hero_image: images/banner.png
+description: Instala o large language model (LLM) open-source Ollama no teu computador Raspberry Pi
+version: 4
+listed: true
+copyedit: false
+last_tested: "2022-05-19"
+steps:
+  - title: O que vais fazer
+  - title: Instalar o LLM
+    completion:
+    - engaged
+  - title: Executar um modelo
+  - title: Usar a WebUI
+  - title: Reconhecimento de imagem com WebUI
+    completion:
+    - internal
+  - title: O que se segue?
+    completion:
+    - external
