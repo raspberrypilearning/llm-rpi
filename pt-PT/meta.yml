@@ -16,6 +16,5 @@ steps:
   - title: Reconhecimento de imagem com WebUI
     completion:
     - internal
-  - title: O que se segue?
     completion:
     - external
