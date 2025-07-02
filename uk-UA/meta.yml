@@ -16,6 +16,5 @@ steps:
   - title: Розпізнавання зображень з WebUI
     completion:
       - internal
-  - title: Що ти тепер вмієш?
     completion:
       - external
