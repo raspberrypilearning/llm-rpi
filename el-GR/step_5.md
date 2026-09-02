@@ -5,41 +5,41 @@
   </div><br><br>
 </html>
 
-## Image recognition with WebUI
+## Αναγνώριση εικόνας με WebUI
 
-To use Ollama, you must download a model to use. Previously, you used the text-only model `gemma:2b`, but in this step you will use the image analysis model called `LLaVa`.
+Για να χρησιμοποιήσεις το Ollama, πρέπει να κατεβάσεις ένα μοντέλο για να το χρησιμοποιήσεις. Προηγουμένως, χρησιμοποίησες το μοντέλο μόνο για κείμενο `gemma:2b`, αλλά σε αυτό το βήμα θα χρησιμοποιήσεις το μοντέλο ανάλυσης εικόνας που ονομάζεται `LLaVa`.
 
 \--- task ---
 
-To download the LLaVA model, access the WebUI at `http://localhost:3000`.
+Για να κατεβάσεις το μοντέλο LLaVA, απόκτησε πρόσβαση στο WebUI στη διεύθυνση `http://localhost:3000`.
 
 \--- /task ---
 
 \--- task ---
 
-Sign-up for Ollama WebUI.
+Εγγραφή στο WebUI του Ollama.
 
-When using WebUI for the first time, you will be asked to provide a name, email, and password. You can use any made-up email for this, it is only for local use on your Raspberry Pi.
+Όταν χρησιμοποιείς το WebUI για πρώτη φορά, θα σου ζητηθεί να δώσεις ένα όνομα, ένα email και έναν κωδικό πρόσβασης. Μπορείς να χρησιμοποιήσεις ένα οποιοδήποτε email ειδικά γι' αυτό, είναι μόνο για τοπική χρήση στο Raspberry Pi σου.
 
-![A signup form for "Open WebUI" with fields for name, email, and password. The name field is filled with "Mr.C", the email field with "test@whatever.com", and the password field shows a series of dots indicating a hidden password. Below these fields, there is a "Create Account" button with a cursor pointing at it, and a link for users who already have an account to sign in.](images/webUI_signup.png)
-
-\--- /task ---
-
-\--- task ---
-
-Choose which model to use from the drop-down menu at the top of the WebUI. You can also search for and add new models this way — type `llava:latest` into the search and choose `Pull llava:latest from Ollama.com`. Your model will begin to download.
-
-![A drop-down menu with the title "Select a model" shows a search field with the text "llava:latest" entered. Below the search field, the text "No results found" is displayed, followed by a selectable option to "Pull 'llava:latest' from Ollama.com". A cursor is hovering over this option.](images/model_dropdown.png)
+![Μια φόρμα εγγραφής για το "Open WebUI" με πεδία για όνομα, email και κωδικό πρόσβασης. Το πεδίο ονόματος συμπληρώνεται με "Mr.C", το πεδίο email με "test@whatever.com" και το πεδίο κωδικού πρόσβασης εμφανίζει μια σειρά από κουκκίδες που υποδεικνύουν έναν κρυφό κωδικό πρόσβασης. Κάτω από αυτά τα πεδία, υπάρχει ένα κουμπί "Create Account" με έναν κέρσορα που δείχνει προς αυτό και ένας σύνδεσμος για να συνδεθούν οι χρήστες που έχουν ήδη λογαριασμό.](images/webUI_signup.png)
 
 \--- /task ---
 
 \--- task ---
 
-Wait for the model to download and verify. This may take some time.
+Επίλεξε ποιο μοντέλο θα χρησιμοποιήσεις από το αναπτυσσόμενο μενού στο επάνω μέρος του WebUI. Μπορείς επίσης να αναζητήσεις και να προσθέσεις νέα μοντέλα με αυτόν τον τρόπο — πληκτρολόγησε `llava:latest` στην αναζήτηση και επίλεξε `Pull llava:latest from Ollama.com`. Το μοντέλο σου θα ξεκινήσει να κατεβαίνει.
+
+![Ένα αναπτυσσόμενο μενού με τον τίτλο "Select a model" εμφανίζει ένα πεδίο αναζήτησης με το κείμενο "llava:latest" που έχει εισαχθεί. Κάτω από το πεδίο αναζήτησης, εμφανίζεται το κείμενο "No results found", ακολουθούμενο από μια επιλογή που μπορείς να επιλέξεις "Pull 'llava:latest' from Ollama.com". Ένας κέρσορας πάνω από αυτήν την επιλογή.](images/model_dropdown.png)
 
 \--- /task ---
 
-### Use LLaVa to analyse an image
+\--- task ---
+
+Περίμενε να ολοκληρωθεί η λήψη του μοντέλου και να το επαληθεύσεις. Αυτό μπορεί να διαρκέσει κάποιο χρόνο.
+
+\--- /task ---
+
+### Χρησιμοποίησε το LLaVa για να αναλύσεις μια εικόνα
 
 <html>
 <br><br>
@@ -51,35 +51,35 @@ Wait for the model to download and verify. This may take some time.
 
 \--- task ---
 
-Once the LLaVA model is downloaded, start a new chat session by selecting the model from the available options.
+Μόλις ολοκληρωθεί η λήψη του μοντέλου LLaVA, ξεκίνησε μια νέα συνεδρία συνομιλίας επιλέγοντας το μοντέλο από τις διαθέσιμες επιλογές.
 
-![Screenshot showing the model selection menu with "llava:latest 7B" highlighted.](images/select_llava_model.png)
-
-\--- /task ---
-
-\--- task ---
-
-Upload an image using the "Upload Image" button.
-![A user interface element with two buttons: "Upload Files" at the top with a document icon, and a "Send a Message" button below it, which is grayed out and includes a plus symbol. A cursor is pointing to the plus symbol on the "Send a Message" button.](images/upload_image.png)
+![Στιγμιότυπο που δείχνει το μενού επιλογής μοντέλου με τονισμένο το "llava:latest 7B"](images/select_llava_model.png)
 
 \--- /task ---
 
 \--- task ---
 
-After uploading, enter a prompt or question about the image in the chat box. Press <kbd>Enter</kbd>.
-
-![A small image of a fluffy orange cat with a white chest and a pink bow around its neck. The cat is looking directly at the camera with a curious expression. Next to the image, there is a plus symbol and the text "describe this picture".](images/cat_prompt.png)
+Ανέβασε μια εικόνα χρησιμοποιώντας το κουμπί "Upload Image".
+![Ένα στοιχείο διεπαφής χρήστη με δύο κουμπιά: "Upload Files" στο επάνω μέρος με ένα εικονίδιο εγγράφου και ένα κουμπί "Send a Message" από κάτω, το οποίο είναι γκριζαρισμένο και περιλαμβάνει ένα σύμβολο συν. Ένας κέρσορας δείχνει προς το σύμβολο συν στο κουμπί "Send a Message".](images/upload_image.png)
 
 \--- /task ---
 
 \--- task ---
 
-Review the description or analysis generated by the LLaVA model. You can ask more questions or upload additional images.
+Μετά τη μεταφόρτωση, δώσε μια προτροπή ή ερώτηση σχετικά με την εικόνα στο πλαίσιο συνομιλίας. Πάτα <kbd>Enter</kbd>.
 
-Using this image:
-![The image shows a close-up of a domestic shorthair cat with striking large eyes and an attentive expression. The cat has a fluffy fur coat, primarily in shades of cream and white, with darker markings on its face, ears, and paws. It appears to be sitting or laying down, with its front paws slightly extended towards the viewer. The cat's tail is coiled up against its body. Behind the cat is a bouquet of lavender flowers, adding a touch of color and texture to the image. On the left side of the photo, there is a purple hue, suggesting a blue wall or background. In the foreground, a wooden surface can be seen, possibly a table or a counter, with some herbs placed in a container on the top right corner. The overall style of the image is realistic with a focus on detail and a shallow depth of field that highlights the cat's features.](images/cat.jpg)
+![Μια μικρή εικόνα μιας χνουδωτής πορτοκαλί γάτας με λευκό στήθος και ροζ φιόγκο γύρω από το λαιμό της. Η γάτα κοιτάζει απευθείας στην κάμερα με μια περίεργη έκφραση. Δίπλα στην εικόνα, υπάρχει ένα σύμβολο συν και το κείμενο "describe this picture".](images/cat_prompt.png)
 
-LLaVa provided this description:
+\--- /task ---
+
+\--- task ---
+
+Επανεξέτασε την περιγραφή ή την ανάλυση που δημιουργήθηκε από το μοντέλο LLaVA. Μπορείς να κάνεις περισσότερες ερωτήσεις ή να ανεβάσεις επιπλέον εικόνες.
+
+Χρησιμοποιώντας αυτήν την εικόνα:
+![Η εικόνα δείχνει ένα κοντινό πλάνο μιας σπιτικής κοντότριχης γάτας με εντυπωσιακά μεγάλα μάτια και μια προσεκτική έκφραση. Η γάτα έχει αφράτο γούνινο τρίχωμα, κυρίως σε αποχρώσεις κρεμ και λευκού, με πιο σκούρα σημάδια στο πρόσωπο, στα αυτιά και στα πόδια της. Φαίνεται να κάθεται ή να είναι ξαπλωμένη, με τα μπροστινά της πόδια ελαφρώς τεντωμένα προς τον θεατή. Η ουρά της γάτας είναι τυλιγμένη πάνω στο σώμα της. Πίσω από τη γάτα υπάρχει ένα μπουκέτο από άνθη λεβάντας, που προσθέτουν μια πινελιά χρώματος και υφής στην εικόνα. Στην αριστερή πλευρά της φωτογραφίας υπάρχει μια μωβ απόχρωση, που υποδηλώνει ένα μπλε τοίχο ή φόντο. Σε πρώτο πλάνο, διακρίνεται μια ξύλινη επιφάνεια, πιθανώς ένα τραπέζι ή ένας πάγκος, με μερικά βότανα τοποθετημένα σε ένα δοχείο στην επάνω δεξιά γωνία. Το συνολικό στυλ της εικόνας είναι ρεαλιστικό με έμφαση στη λεπτομέρεια και ένα μικρό βάθος πεδίου που αναδεικνύει τα χαρακτηριστικά της γάτας.](images/cat.jpg)
+
+Το LLaVa παρείχε αυτή την περιγραφή:
 
 `The image shows a close-up of a domestic shorthair cat with striking large eyes and an attentive expression. The cat has a fluffy fur coat, primarily in shades of cream and white, with darker markings on its face, ears, and paws. It appears to be sitting or laying down, with its front paws slightly extended towards the viewer. The cat's tail is coiled up against its body. Behind the cat is a bouquet of lavender flowers, adding a touch of color and texture to the image. On the left side of the photo, there is a purple hue, suggesting a blue wall or background. In the foreground, a wooden surface can be seen, possibly a table or a counter, with some herbs placed in a container on the top right corner. The overall style of the image is realistic with a focus on detail and a shallow depth of field that highlights the cat's features.`
 
