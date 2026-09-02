@@ -10,7 +10,7 @@ Este recurso de aprendizagem não é recomendado para alunos com menos de 13 ano
 
 ## title: Não tens Youtube? Descarrega estes vídeos!
 
-Podes descarregar todos os vídeos deste projeto, incluindo o vídeo acima [ao clicar aqui](https://rpf.io/p/en/llm-rpi-go){:target="_blank"}.
+Podes descarregar todos os vídeos deste projeto, incluindo o vídeo acima [ao clicar aqui](https://rpf.io/p/pt-PT/llm-rpi-go){:target="_blank"}.
 
 \--- /collapse ---
 
@@ -27,7 +27,7 @@ Esta configuração vai permitir explorar e utilizar recursos avançados de IA g
 
 ## --- collapse ---
 
-## title: Porque recomendamos que os alunos mais velhos usem este recurso?
+## title:  Porque recomendamos que os alunos mais velhos usem este recurso?
 
 É importante entender como podes manter as tuas informações pessoais seguras. A Fundação Raspberry Pi é muito cuidadosa na proteção dos seus dados e da sua privacidade, e é por isso que recomendamos este projeto se tiver mais de 13 anos.
 
