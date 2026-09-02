@@ -19,8 +19,4 @@ steps:
   - 
     title: Riconoscimento delle immagini con WebUI
     completion:
-      - internal
-  - 
-    title: Cosa puoi fare adesso?
-    completion:
       - external
