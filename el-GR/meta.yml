@@ -1,0 +1,19 @@
+title: Εκτέλεσε ένα Μεγάλο Γλωσσικό Μοντέλο στο δικό σου Raspberry Pi
+hero_image: images/banner.png
+description: Εγκατάστησε το μεγάλο γλωσσικό μοντέλο Ollama (LLM) ανοιχτού κώδικα στον υπολογιστή σου Raspberry Pi
+version: 4
+listed: true
+copyedit: false
+last_tested: "2022-05-19"
+steps:
+  - title: Τι θα φτιάξεις
+  - title: Εγκατάστησε το LLM
+    completion:
+    - engaged
+  - title: Εκτέλεση μοντέλου
+  - title: Χρήση του WebUI
+  - title: Αναγνώριση εικόνας με WebUI
+    completion:
+    - internal
+    completion: 
+    - external
