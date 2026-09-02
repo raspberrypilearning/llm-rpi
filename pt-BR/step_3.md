@@ -5,89 +5,89 @@
   </div>
 </html>
 
-## Pull and run a model for your Ollama
+## Puxe e execute um modelo para o seu Ollama
 
-In simple terms, "pulling a model" means downloading a specific AI model that Ollama will use to perform tasks.
+Em poucas palavras, "puxar um modelo" significa baixar um modelo de IA específico que Ollama usará para executar tarefas.
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-There are various models available at [ollama.com/library](https://ollama.com/library){:target="_blank"}. We recommend starting with `gemma:2b`, `phi`, or `tinyllama`. Be cautious with models larger than 5 billion parameters, as they might be too demanding for a standard Raspberry Pi.
+Há vários modelos disponíveis em [ollama.com/library](https://ollama.com/library){:target="_blank"}. Recomendamos começar com `gemma:2b`, `phi` ou `tinyllama`. Tenha cuidado com modelos que tenham mais de 5 bilhões de parâmetros, pois eles podem ser muito exigentes para um Raspberry Pi padrão.
 </p>
 
 \--- task ---
 
-Run the following command, replacing `[model name here]` with the name of the model you want to use:
+Execute o seguinte comando e substitua `[nome do modelo aqui]` pelo nome do modelo que você deseja usar:
 
 ```sh
-ollama run [model name here]
+ollama run [nome do modelo aqui]
 ```
 
-You will see some progress bars fill up and then you will be asked to prompt the model.
+Você verá algumas barras de progresso se preencherem e, em seguida, será solicitado que você dê instruções ao modelo.
 
-![Animation showing a command line interface with the prompt displaying "pi@raspberrypi:~ $" followed by a command being typed.](images/run_gemma2b.gif)
+![Animação mostrando uma interface de linha de comando com o prompt exibindo "pi@raspberrypi:~ $" seguido por um comando sendo digitado.](images/run_gemma2b.gif)
 
 \--- /task ---
 
 \--- task ---
 
-Interact with the model by asking it questions, requesting it to write a poem or story, or act as a study aid:
+Interaja com o modelo fazendo perguntas, solicitando que escreva um poema ou uma história, ou que aja como um suporte de estudos:
 
 ```
->>> write a short funny poem about skibidi
+>>> Escreva um poema curto e engraçado sobre Skibidi
 
-Oh Skibidi, you're a sight to behold,
-A sail that's made of clouds, so light and
-bold.
-Your laughter echoes through the air,
-As you dance across the starry fair.
-With a grin so wide, you fill the sky,
-A twinkle that makes everyone sigh.
-Skibidi, a joy we cannot deny,
-A skibidi, a playful sigh.
+Oh, Skibidi, você é uma visão para se contemplar,
+Uma vela feita de nuvens, tão leve e
+ousada.
+Seu riso ecoa pelo ar,
+Enquanto você dança pela feira estrelada.
+Com um sorriso tão largo, você preenche o céu,
+Um brilho que faz todos suspirarem.
+Skibidi, uma alegria que não podemos negar,
+Um Skibidi, um suspiro brincalhão.
 ```
 
-Press `Ctrl + D` to exit the LLM prompting process when you are done.
+Pressione `Ctrl + D` para sair do processo de solicitação de LLM quando você terminar.
 
 \--- /task ---
 
 ## --- collapse ---
 
-## title: Recommended models and sizes
+## title: Modelos e tamanhos recomendados
 
-There are lots of models available in the Ollama library, but larger models (models with more parameters) will take more space on your hard disk, as well as needing more time to download and more memory to run.
+Há muitos modelos disponíveis na biblioteca Ollama, mas modelos maiores (modelos com mais parâmetros) vão tomar mais espaço em seu disco rígido, Além de precisar de mais tempo para baixar e mais memória para executar.
 
-The number of parameters of a model can be thought of as the "size" of the model's training data set: more parameters generally mean the model can find and represent more complex patterns and relationships in the data.
+O número de parâmetros de um modelo pode ser considerado como o "tamanho" do conjunto de dados de treinamento do modelo: mais parâmetros geralmente significam que o modelo pode encontrar e representar padrões e relações mais complexas nos dados.
 
-Here is a list of models, the number of parameters, and their required size in GB on your hard disk:
+Aqui está uma lista de modelos, o número de parâmetros e seu tamanho necessário em GB no seu disco rígido:
 
-| Model name                      | Parameters                   | Size (GB) |
-| ------------------------------- | ---------------------------- | ---------------------------- |
-| oLLama-7B                       | 7 billion                    | 13                           |
-| oLLama-3B                       | 3 billion                    | 6                            |
-| oLLama-1B                       | 1 billion                    | 2                            |
-| oLLama-500M                     | 500 million                  | 1                            |
-| oLLama-300M                     | 300 million                  | 0.6          |
-| Llama2-7B                       | 7 billion                    | 13                           |
-| Llama2-13B                      | 13 billion                   | 26                           |
-| Phi-3 Mini                      | 3 billion                    | 3.8          |
-| Phi-3 Medium                    | 14 billion                   | 15                           |
-| Orca Mini                       | 7 billion                    | 13                           |
-| Solar                           | 10.7 billion | 6.1-21       |
-| Gemma-2B                        | 2 billion                    | 3.5          |
-| Gemma-7B                        | 7 billion                    | 11.5         |
-| LLaVA-7B                        | 7 billion                    | 5.5          |
-| LLaVA-13B                       | 13 billion                   | 17                           |
-| StarCoder-7B                    | 7 billion                    | 15                           |
-| CodeLlama-7B                    | 7 billion                    | 13                           |
-| Dolphin-2.2-70B | 70 billion                   | 28                           |
-| Magicoder-7B                    | 7 billion                    | 10.5         |
+| Nome do modelo                  | Parâmetros   | Tamanho (GB) |
+| ------------------------------- | ------------ | ------------------------------- |
+| oLLama-7B                       | 7 bilhões    | 13                              |
+| oLLama-3B                       | 3 bilhões    | 6                               |
+| oLLama-1B                       | 1 bilhão     | 2                               |
+| oLLama-500M                     | 500 milhões  | 1                               |
+| oLLama-300M                     | 300 milhões  | 0,6                             |
+| Llama2-7B                       | 7 bilhões    | 13                              |
+| Llama2-13B                      | 13 bilhões   | 26                              |
+| Phi-3 Mini                      | 3 bilhões    | 3.8             |
+| Phi-3 Medium                    | 14 bilhões   | 15                              |
+| Orca Mini                       | 7 bilhões    | 13                              |
+| Solar                           | 10,7 bilhões | 6,1-21                          |
+| Gemma-2B                        | 2 bilhões    | 3.5             |
+| Gemma-7B                        | 7 bilhões    | 11.5            |
+| LLaVA-7B                        | 7 bilhões    | 5.5             |
+| LLaVA-13B                       | 13 bilhões   | 17                              |
+| StarCoder-7B                    | 7 bilhões    | 15                              |
+| CodeLlama-7B                    | 7 bilhões    | 13                              |
+| Dolphin-2.2-70B | 70 bilhões   | 28                              |
+| Magicoder-7B                    | 7 bilhões    | 10.5            |
 
-You can download and run any of these models on your Raspberry Pi by opening the terminal and entering:
+Você pode baixar e executar qualquer um desses modelos no seu Raspberry Pi abrindo o terminal e digitando:
 
 ```bash
-ollama run [Model Name]
+ollama run [nome do modelo]
 ```
 
-For example, to run `gemma:2b`, type:
+Por exemplo, para executar `gemma:2b`, digite:
 
 ```bash
 ollama run gemma:2b
