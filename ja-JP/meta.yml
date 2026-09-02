@@ -1,0 +1,22 @@
+title: Raspberry Piで大規模言語モデル(LLM)を実行する
+hero_image: images/banner.png
+description: オープンソースのOllama大規模言語モデル(LLM)をRaspberry Piコンピューターにインストールする
+version: 4
+listed: true
+copyedit: false
+last_tested: "2022-05-19"
+steps:
+  - 
+    title: はじめに
+  - 
+    title: LLMをインストールする
+    completion:
+      - engaged
+  - 
+    title: モデルを実行する
+  - 
+    title: WebUIを使用する
+  - 
+    title: WebUIによる画像認識
+    completion:
+      - external
