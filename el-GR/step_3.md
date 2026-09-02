@@ -5,31 +5,31 @@
   </div>
 </html>
 
-## Pull and run a model for your Ollama
+## Επίλεξε και εκτέλεσε ένα μοντέλο για το Ollama σου
 
-In simple terms, "pulling a model" means downloading a specific AI model that Ollama will use to perform tasks.
+Με απλά λόγια, η «λήψη ενός μοντέλου» σημαίνει λήψη ενός συγκεκριμένου μοντέλου ΤΝ που θα χρησιμοποιήσει το Ollama για την εκτέλεση εργασιών.
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-There are various models available at [ollama.com/library](https://ollama.com/library){:target="_blank"}. We recommend starting with `gemma:2b`, `phi`, or `tinyllama`. Be cautious with models larger than 5 billion parameters, as they might be too demanding for a standard Raspberry Pi.
+Υπάρχουν διάφορα μοντέλα διαθέσιμα στο [ollama.com/library](https://ollama.com/library){:target="_blank"}. Σας συνιστούμε να ξεκινήσετε με `gemma:2b`, `phi`, ή `tinyllama`. Να είστε προσεκτικοί με μοντέλα μεγαλύτερα από 5 δισεκατομμύρια παραμέτρους, καθώς μπορεί να είναι πολύ απαιτητικά για ένα τυπικό Raspberry Pi.
 </p>
 
 \--- task ---
 
-Run the following command, replacing `[model name here]` with the name of the model you want to use:
+Εκτέλεσε την ακόλουθη εντολή, αντικαθιστώντας το `[model name here]` με το όνομα του μοντέλου που θέλεις να χρησιμοποιήσεις:
 
 ```sh
-ollama run [model name here]
+ollama run [όνομα μοντέλου εδώ]
 ```
 
-You will see some progress bars fill up and then you will be asked to prompt the model.
+Θα δείς μερικές μπάρες προόδου να γεμίζουν και στη συνέχεια θα σου ζητηθεί να δώσεις προτροπή στο μοντέλο.
 
-![Animation showing a command line interface with the prompt displaying "pi@raspberrypi:~ $" followed by a command being typed.](images/run_gemma2b.gif)
+![Κινούμενη εικόνα που δείχνει μια διεπαφή γραμμής εντολών με το σύμβολο προτροπής να εμφανίζει "pi@raspberrypi:~ $" ακολουθούμενο από την πληκτρολόγηση μιας εντολής.](images/run_gemma2b.gif)
 
 \--- /task ---
 
 \--- task ---
 
-Interact with the model by asking it questions, requesting it to write a poem or story, or act as a study aid:
+Αλληλεπίδρασε με το μοντέλο κάνοντας ερωτήσεις, ζητώντας να γράψει ένα ποίημα ή μια ιστορία ή να λειτουργήσει ως βοηθός μελέτης:
 
 ```
 >>> write a short funny poem about skibidi
@@ -45,49 +45,49 @@ Skibidi, a joy we cannot deny,
 A skibidi, a playful sigh.
 ```
 
-Press `Ctrl + D` to exit the LLM prompting process when you are done.
+Πάτα `Ctrl + D` για να τερματίσεις τη διαδικασία προτροπής LLM όταν τελειώσεις.
 
 \--- /task ---
 
 ## --- collapse ---
 
-## title: Recommended models and sizes
+## title: Προτεινόμενα μοντέλα και μεγέθη
 
-There are lots of models available in the Ollama library, but larger models (models with more parameters) will take more space on your hard disk, as well as needing more time to download and more memory to run.
+Υπάρχουν πολλά μοντέλα διαθέσιμα στη βιβλιοθήκη Ollama, αλλά τα μεγαλύτερα μοντέλα (μοντέλα με περισσότερες παραμέτρους) θα καταλαμβάνουν περισσότερο χώρο στον σκληρό σας δίσκο, καθώς και περισσότερο χρόνο για λήψη και περισσότερη μνήμη για εκτέλεση.
 
-The number of parameters of a model can be thought of as the "size" of the model's training data set: more parameters generally mean the model can find and represent more complex patterns and relationships in the data.
+Ο αριθμός των παραμέτρων ενός μοντέλου μπορεί να θεωρηθεί ως το «μέγεθος» του συνόλου δεδομένων με τα οποία εκπαιδεύτηκε το μοντέλο: περισσότερες παράμετροι γενικά σημαίνουν ότι το μοντέλο μπορεί να βρει και να αναπαραστήσει πιο σύνθετα μοτίβα και σχέσεις στα δεδομένα.
 
-Here is a list of models, the number of parameters, and their required size in GB on your hard disk:
+Ακολουθεί μια λίστα με μοντέλα, τον αριθμό των παραμέτρων και το απαιτούμενο μέγεθός τους σε GB στον σκληρό σου δίσκο:
 
-| Model name                      | Parameters                   | Size (GB) |
-| ------------------------------- | ---------------------------- | ---------------------------- |
-| oLLama-7B                       | 7 billion                    | 13                           |
-| oLLama-3B                       | 3 billion                    | 6                            |
-| oLLama-1B                       | 1 billion                    | 2                            |
-| oLLama-500M                     | 500 million                  | 1                            |
-| oLLama-300M                     | 300 million                  | 0.6          |
-| Llama2-7B                       | 7 billion                    | 13                           |
-| Llama2-13B                      | 13 billion                   | 26                           |
-| Phi-3 Mini                      | 3 billion                    | 3.8          |
-| Phi-3 Medium                    | 14 billion                   | 15                           |
-| Orca Mini                       | 7 billion                    | 13                           |
-| Solar                           | 10.7 billion | 6.1-21       |
-| Gemma-2B                        | 2 billion                    | 3.5          |
-| Gemma-7B                        | 7 billion                    | 11.5         |
-| LLaVA-7B                        | 7 billion                    | 5.5          |
-| LLaVA-13B                       | 13 billion                   | 17                           |
-| StarCoder-7B                    | 7 billion                    | 15                           |
-| CodeLlama-7B                    | 7 billion                    | 13                           |
-| Dolphin-2.2-70B | 70 billion                   | 28                           |
-| Magicoder-7B                    | 7 billion                    | 10.5         |
+| Όνομα μοντέλου                  | Παράμετροι          | Μέγεθος (GB) |
+| ------------------------------- | ------------------- | ------------------------------- |
+| oLLama-7B                       | 7 δισεκατομμύρια    | 13                              |
+| oLLama-3B                       | 3 δισεκατομμύρια    | 6                               |
+| oLLama-1B                       | 1 δισεκατομμύριο    | 2                               |
+| oLLama-500M                     | 500 εκατομμύρια     | 1                               |
+| oLLama-300M                     | 300 εκατομμύρια     | 0,6                             |
+| Llama2-7B                       | 7 δισεκατομμύρια    | 13                              |
+| Llama2-13B                      | 13 δισεκατομμύρια   | 26                              |
+| Phi-3 Mini                      | 3 δισεκατομμύρια    | 3,8                             |
+| Phi-3 Medium                    | 14 δισεκατομμύρια   | 15                              |
+| Orca Mini                       | 7 δισεκατομμύρια    | 13                              |
+| Solar                           | 10,7 δισεκατομμύρια | 6,1-21                          |
+| Gemma-2B                        | 2 δισεκατομμύρια    | 3,5                             |
+| Gemma-7B                        | 7 δισεκατομμύρια    | 11,5                            |
+| LLaVA-7B                        | 7 δισεκατομμύρια    | 5,5                             |
+| LLaVA-13B                       | 13 δισεκατομμύρια   | 17                              |
+| StarCoder-7B                    | 7 δισεκατομμύρια    | 15                              |
+| CodeLlama-7B                    | 7 δισεκατομμύρια    | 13                              |
+| Dolphin-2.2-70B | 70 δισεκατομμύρια   | 28                              |
+| Magicoder-7B                    | 7 δισεκατομμύρια    | 10,5                            |
 
-You can download and run any of these models on your Raspberry Pi by opening the terminal and entering:
+Μπορείς να κατεβάσεις και να εκτελέσεις οποιοδήποτε από αυτά τα μοντέλα στο Raspberry Pi σου ανοίγοντας το τερματικό και εισάγοντας:
 
 ```bash
-ollama run [Model Name]
+ollama run [Όνομα Μοντέλου]
 ```
 
-For example, to run `gemma:2b`, type:
+Για παράδειγμα, για να εκτελέσεις την εντολή `gemma:2b`, πληκτρολόγησε:
 
 ```bash
 ollama run gemma:2b
