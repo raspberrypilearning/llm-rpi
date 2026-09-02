@@ -27,7 +27,7 @@ Questa configurazione ti consentirà di esplorare e utilizzare le funzionalità 
 
 ## --- collapse ---
 
-## titolo: Perché consigliamo questo progetto agli studenti più grandi?
+## title:  Perché consigliamo questo progetto agli studenti più grandi?
 
 È importante sapere come proteggere le proprie informazioni personali. La Raspberry Pi Foundation tiene molto alla sicurezza dei dati e alla privacy, ed è per questo che consigliamo questo progetto solo a chi ha più di 13 anni.
 
