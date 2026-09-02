@@ -19,8 +19,4 @@ steps:
   - 
     title: Image recognition with WebUI
     completion:
-      - internal
-  - 
-    title: Mejora tu proyecto
-    completion:
       - external
