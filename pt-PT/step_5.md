@@ -35,7 +35,7 @@ Escolhe que modelo queres usar do menu suspenso no topo da WebUI. Também podes 
 
 \--- task ---
 
-Espera que o modelo descarregue e verifica-o. Isto pode demorar algum tempo.
+Espera que o modelo descarregue e verifica-o. Isto pode demorar algum tempo. Isto pode demorar algum tempo.
 
 \--- /task ---
 
@@ -77,7 +77,7 @@ Após o carregamento, introduza um prompt ou uma pergunta sobre a imagem na caix
 Revê a descrição ou análise gerada pelo modelo LLaVA. Podes fazer mais perguntas ou enviar imagens adicionais.
 
 Utilizar esta imagem:
-![A imagem mostra um grande plano de um gato doméstico de pelo curto com olhos grandes e marcantes, e uma expressão atenta. O gato tem uma pelagem felpuda, principalmente em tons de creme e branco, com manchas mais escuras na cara, orelhas e patas. Parece estar sentado ou deitado, com as patas da frente ligeiramente estendidas em direção ao espetador. O rabo do gato está enrolado no seu corpo. Atrás do gato está um ramo de flores de lavanda, acrescentando um toque de cor e textura à imagem. No lado esquerdo da foto, há um tom roxo, sugerindo uma parede azul ou um fundo. Em primeiro plano, uma superfície de madeira pode ser vista, possivelmente uma mesa ou um balcão, com algumas ervas colocadas num recipiente no canto superior direito. O estilo geral da imagem é realista com foco em detalhes e com uma reduzida profundidade de campo que destaca as características do gato. (images/cat.jpg)
+![A imagem mostra um grande plano de um gato doméstico de pelo curto com olhos grandes e marcantes, e uma expressão atenta. O gato tem uma pelagem felpuda, principalmente em tons de creme e branco, com manchas mais escuras na cara, orelhas e patas. Parece estar sentado ou deitado, com as patas da frente ligeiramente estendidas em direção ao espetador. O rabo do gato está enrolado no seu corpo. Atrás do gato está um ramo de flores de lavanda, acrescentando um toque de cor e textura à imagem. No lado esquerdo da foto, há um tom roxo, sugerindo uma parede azul ou um fundo. Em primeiro plano, uma superfície de madeira pode ser vista, possivelmente uma mesa ou um balcão, com algumas ervas colocadas num recipiente no canto superior direito. O estilo geral da imagem é realista com foco em detalhes e com uma reduzida profundidade de campo que destaca as características do gato.](images/cat.jpg)
 
 LLaVa forneceu esta descrição:
 
