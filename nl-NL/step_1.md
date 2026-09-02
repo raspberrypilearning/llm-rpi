@@ -27,7 +27,7 @@ Deze instelling stelt je in staat om geavanceerde generatieve AI mogelijkheden r
 
 ## --- collapse ---
 
-## title: Waarom raden wij oudere leerlingen aan dit project te gebruiken?
+## title:  Waarom raden wij oudere leerlingen aan dit project te gebruiken?
 
 Het is belangrijk om te begrijpen hoe je je persoonlijke gegevens veilig kunt bewaren. De Raspberry Pi Foundation hecht veel waarde aan de bescherming van jouw gegevens en privacy, daarom raden wij dit project alleen aan als je ouder bent dan 13 jaar.
 
