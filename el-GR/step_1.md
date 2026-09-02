@@ -1,44 +1,44 @@
 <p style='border-left: solid; border-width:10px; border-color: #FFA500; background-color: #FFFACD; padding: 10px;'>
-This learning resource is not recommended for learners below the age of 13. We encourage users to engage with this material responsibly and to seek guidance from a trusted adult when necessary.
+Αυτός ο εκπαιδευτικός πόρος δεν συνιστάται για μαθητές/τριες ηλικίας κάτω των 13 ετών. Ενθαρρύνουμε τους χρήστες να ασχοληθούν με αυτό το υλικό με υπευθυνότητα και να αναζητήσουν καθοδήγηση από έναν έμπιστο ενήλικα όταν είναι απαραίτητο.
 </p>
 
-## Εισαγωγή
+## Τι θα φτιάξεις
 
-![A screenshot of an AI interface displaying a clean, minimalist design. The interface greets the user with "Hello, MrC" and includes a search bar labeled "How can I help you today?" with microphone and audio icons on the right. Below, suggested prompts include "Tell me a fun fact about the Roman Empire," "Show me a code snippet of a website's sticky header," and "Give me ideas for what to do with my kids' art." The background is white with minimal elements.](images/wywm.png)
+![Ένα στιγμιότυπο οθόνης μιας διεπαφής τεχνητής νοημοσύνης που εμφανίζει έναν καθαρό, μινιμαλιστικό σχεδιασμό. Η διεπαφή υποδέχεται τον χρήστη με την φράση "Hello, MrC" και περιλαμβάνει μια γραμμή αναζήτησης με την ένδειξη "How can I help you today?" με εικονίδια μικροφώνου και ήχου στα δεξιά. Παρακάτω οι προτεινόμενες προτροπές περιλαμβάνουν: "Tell me a fun fact about the Roman Empire," "Show me a code snippet of a website's sticky header," και "Give me ideas for what to do with my kids' art." Το φόντο είναι λευκό με ελάχιστα στοιχεία.](images/wywm.png)
 
 ## --- collapse ---
 
-## title: No YouTube? Download the videos!
+## title: Δεν υπάρχει YouTube; Κάνε λήψη των βίντεο!
 
-You can download all the resources for this project, including the above video [by clicking here](https://rpf.io/p/en/llm-rpi-go){:target="_blank"}.
+Μπορείς να κατεβάσεις όλους τους πόρους γι' αυτό το έργο, συμπεριλαμβανομένου του παραπάνω βίντεο [κάνοντας κλικ εδώ](https://rpf.io/p/en/llm-rpi-go){:target="_blank"}.
 
 \--- /collapse ---
 
-[Ollama](https://ollama.com){:target="_blank"} is an open-source tool designed to run large language models (LLMs) on your Raspberry Pi itself, rather than over the internet.
+Το [Ollama](https://ollama.com){:target="_blank"} είναι ένα εργαλείο ανοιχτού κώδικα που έχει σχεδιαστεί για να εκτελεί μεγάλα μοντέλα γλώσσας (LLM) στο ίδιο το Raspberry Pi σου, και όχι μέσω διαδικτύου.
 
-By following these steps, you will transform your Raspberry Pi into a powerful AI assistant using Ollama. You will install Ollama along with its WebUI interface, pull a suitable AI model, and interact with it to perform various tasks such as answering questions, helping you write a story, or providing support.
+Ακολουθώντας αυτά τα βήματα, θα μετατρέψει το Raspberry Pi σας σε έναν ισχυρό βοηθό τεχνητής νοημοσύνης χρησιμοποιώντας το Ollama. Θα εγκαταστήσεις το Ollama μαζί με τη διεπαφή WebUI, θα ανακτήσεις ένα κατάλληλο μοντέλο τεχνητής νοημοσύνης και θα αλληλεπιδράσεις με αυτό για να εκτελέσεις διάφορες εργασίες, όπως απαντήσεις σε ερωτήσεις, βοήθεια στη συγγραφή μιας ιστορίας ή παροχή υποστήριξης.
 
-This setup will enable you to explore and use advanced generative AI capabilities directly from your Raspberry Pi.
+Αυτή η ρύθμιση θα σου επιτρέψει να εξερευνήσεις και να χρησιμοποιήσεις προηγμένες δυνατότητες της παραγωγικής τεχνητής νοημοσύνης απευθείας από το Raspberry Pi.
 
 ### Θα χρειαστείς:
 
-- A Raspberry Pi 4 or 5 with a micro SD card of **at least** 32GB storage
-- An internet connection for the Raspberry Pi
+- Ένα Raspberry Pi 4 ή 5 με κάρτα micro SD με **τουλάχιστον** 32 GB αποθηκευτικού χώρου
+- Μια σύνδεση στο διαδίκτυο για το Raspberry Pi
 
 ## --- collapse ---
 
-## title:  Why do we recommend older learners use this project?
+## title:  Γιατί συνιστούμε να χρησιμοποιούν αυτό το έργο μεγαλύτεροι μαθητές/τριες;
 
-It's important to understand how you can keep your personal information safe. The Raspberry Pi Foundation is very careful about protecting your data and your privacy, which is why we only recommend this project if you're over 13 years old.
+Είναι σημαντικό να κατανοήσεις με ποιό τρόπο μπορείς να διατηρήσεις τα προσωπικά σου στοιχεία ασφαλή. Το Ίδρυμα Raspberry Pi είναι πολύ προσεκτικό όσον αφορά την προστασία των δεδομένων σου και του απορρήτου σου, γι' αυτό προτείνουμε αυτό το έργο μόνο εάν είσαι πάνω από 13 ετών.
 
-You might have noticed that many online services ask users to be at least 13 years old. This is because they handle and store data you provide, which can include personal information. Although these services follow strict rules to protect your data, sending information over the internet can sometimes be less secure.
+Ίσως έχεις παρατηρήσει ότι πολλές διαδικτυακές υπηρεσίες ζητούν από τους χρήστες να είναι τουλάχιστον 13 ετών. Αυτό συμβαίνει επειδή διαχειρίζονται και αποθηκεύουν τα δεδομένα που παρέχεις, τα οποία μπορεί να περιλαμβάνουν προσωπικά στοιχεία. Αν και αυτές οι υπηρεσίες ακολουθούν αυστηρούς κανόνες για την προστασία των δεδομένων σου, η αποστολή πληροφοριών μέσω Διαδικτύου μπορεί μερικές φορές να είναι λιγότερο ασφαλής.
 
-When you use generative AI tools on a Raspberry Pi, all of the work happens right on your device. **Your personal data stays on your computer and never leaves it.** This keeps your information safe and secure and lets you explore and learn about AI safely.
+Όταν χρησιμοποιείς εργαλεία παραγωγικής ΤΝ σε ένα Raspberry Pi, όλη η εργασία γίνεται απευθείας στη συσκευή σου. **Τα προσωπικά σου δεδομένα παραμένουν στον υπολογιστή σου και δεν βγαίνουν εκτός υπολογιστή ποτέ.** Αυτό διατηρεί τις πληροφορίες σου ασφαλείς και σου επιτρέπει να διερευνήσεις και να μάθεις για την ασφάλεια στην TN.
 
-But it's also important to know that generative AI can sometimes create **content that isn’t accurate, fair, or appropriate**. These AI models can sometimes "hallucinate" and **produce information that sounds true but isn’t**. So, it’s important to **think carefully about the AI application’s output and double-check it**. As you work with generative AI, make sure to check the information and ask trusted sources if you’re unsure.
+Αλλά είναι επίσης σημαντικό να γνωρίζεις ότι η παραγωγική ΤΝ μπορεί μερικές φορές να δημιουργήσει **περιεχόμενο που δεν είναι ακριβές, δίκαιο ή κατάλληλο**. Αυτά τα μοντέλα ΤΝ μερικές φορές μπορεί να "έχουν παραισθήσεις" και **να παράγουν πληροφορίες που μοιάζουν αληθινές αλλά δεν είναι**. Επομένως, είναι σημαντικό να **σκεφτείς προσεκτικά τι αποτέλεσμα παράγει η εφαρμογή ΤΝ και να την ελέγξεις ξανά και ξανά**. Καθώς εργάζεσαι με την παραγωγική ΤΝ, φρόντισε να ελέγξεις τις πληροφορίες και να ρωτήσεις αξιόπιστες πηγές εάν δεν είσαι σίγουρος/η.
 
-**Always look at AI-generated content with a careful and thoughtful mind.** If you need help, please ask a parent, guardian, or teacher to guide you.
+**Να εξετάζεις πάντα το περιεχόμενο που δημιουργείται από την παραγωγική ΤΝ προσεκτικά και με σκεπτικισμό.** Εάν χρειάζεσαι βοήθεια, ζήτησε από έναν γονέα, κηδεμόνα ή καθηγητή/τρια να σε καθοδηγήσει.
 
-Enjoy learning and creating with generative AI!
+Απόλαυσε τη μάθηση και τη δημιουργία με παραγωγική ΤΝ!
 
 \--- /collapse ---
