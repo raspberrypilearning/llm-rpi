@@ -1,26 +1,25 @@
 1
 00:00:03,120 --> 00:00:05,600
-In your browser, navigate to localhost:3000
+No seu navegador, vá para localhost:3000
 
 2
 00:00:12,440 --> 00:00:29,960
-Sign up for a free acount on WebUI - you 
-can use made-up details for your login.
+Crie uma conta gratuita no WebUI - você
+pode inventar detalhes no seu login.
 
 3
 00:00:38,160 --> 00:00:41,160
-Select the pull-down menu and 
-type the name of the model you  
+Selecione o menu colapsante e escreva o nome do modelo que você
 
 4
 00:00:41,160 --> 00:00:49,680
-want to use - in this example we're using LLaVa.
+quer usar, nesse exemplo, usaremos LLaVa.
 
 5
 00:00:49,680 --> 00:00:59,920
-Wait for the model to download and verify.
+Espere o modelo instalar e verifique.
 
 6
 00:01:00,520 --> 00:01:04,920
-And you're ready to chat!
+E você está pronto para conversar!
 
