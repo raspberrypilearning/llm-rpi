@@ -1,5 +1,5 @@
-## Αναστοχασμός
+## Τι μπορείς να κάνεις τώρα;
 
-Learn how to make awesome prompts that get reliable output from Large Language Models in our [Prompt an LLM](http://rpf.io/llmprompt) project, or [Run an Image Generator on your Raspberry Pi](http://rpf.io/sdpi)!
+Μάθε πώς να δημιουργείς εκπληκτικές προτροπές που παράγουν αξιόπιστη έξοδο από Μεγάλα Γλωσσικά Μοντέλα στο έργο μας [Υποβολή Προτροπής για LLM](http://rpf.io/llmprompt) ή στο [Εκτέλεση Γεννήτριας Εικόνων στο Raspberry Pi](http://rpf.io/sdpi)!
 
-There are lots of other machine learning and AI projects in the [artificial intelligence](https://projects.raspberrypi.org/en/pathways/ai-toolkit) toolkit.
+Υπάρχουν πολλά άλλα έργα μηχανικής μάθησης και ΤΝ στην εργαλειοθήκη [τεχνητή νοημοσύνη](https://projects.raspberrypi.org/en/pathways/ai-toolkit).
