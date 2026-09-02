@@ -27,7 +27,7 @@ Cette configuration te permettra d'explorer et d'utiliser les capacités IA gén
 
 ## --- collapse ---
 
-## title: Pourquoi recommandons-nous aux apprenants plus âgés d’utiliser ce projet ?
+## title:  Pourquoi recommandons-nous aux apprenants plus âgés d’utiliser ce projet ?
 
 Il est important de comprendre comment tu peux protéger tes informations personnelles. La Raspberry Pi Foundation est très attentive à la protection de tes données et de ta vie privée, c'est pourquoi nous ne recommandons ce projet qu'aux personnes âgées de plus de 13 ans.
 
